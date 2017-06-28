@@ -453,7 +453,7 @@ PlayerSettings:
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
   cloudServicesEnabled:
-    Collab: 1
+    Collab: 0
     UNet: 1
   cloudProjectId: 55536500-ccfa-465b-b8ff-744a229d704c
   projectName: Princess Charming
