@@ -1,16 +1,16 @@
-# =============== #
-# Unity generated #
-# =============== #
-Temp/
-Obj/
-UnityGenerated/
-Library/
-Assets/AssetStoreTools*
+# Unity generated and a few customs #
+# ================================= #
+Temp/*
+Library/*
+Build/*
+Obj/*
+WebBuild/*
+WindowsBuild/*
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
-ExportedObj/
+ExportedObj/*
 *.svd
 *.userprefs
 *.csproj
@@ -20,6 +20,29 @@ ExportedObj/
 *.user
 *.unityproj
 *.booproj
+*.log
+# Ignore UnityVS so users can use different versions
+Assets/UnityVS/*
+
+#ignoring pidb, they are just code completion caching data according to:
+# http://stackoverflow.com/questions/1022111/what-are-monodevelops-pidb-files
+*.pidb
+*.userprefs
+
+# Unity3D .gitignore file.
+# Store this file at the root of your local repository.
+Library/AssetImportState
+Library/AssetServerCacheV3
+Library/FailedAssetImports.txt
+Library/ScriptAssemblies
+Library/ScriptMapper
+Library/assetDatabase3
+Library/cache
+Library/expandedItems
+Library/metadata
+Library/previews
+Library/guidmapper
+
 
 # ============ #
 # OS generated #
