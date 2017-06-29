@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: d0df9352d748249c2926bc0878bf0b60
+timeCreated: 1498683674
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Harrington
+  fontNames:
+  - Harrington
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
