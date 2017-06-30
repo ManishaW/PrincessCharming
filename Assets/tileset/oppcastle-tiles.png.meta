@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: a3f8fcb5138eb444f9b4cd45aaf98287
+timeCreated: 1498845771
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: oppcastle-tiles_0
+    21300002: oppcastle-tiles_1
+    21300004: oppcastle-tiles_2
+    21300006: oppcastle-tiles_3
+    21300008: oppcastle-tiles_4
+    21300010: oppcastle-tiles_5
+    21300012: oppcastle-tiles_6
+    21300014: oppcastle-tiles_7
+    21300016: oppcastle-tiles_8
+    21300018: oppcastle-tiles_9
+    21300020: oppcastle-tiles_10
+    21300022: oppcastle-tiles_11
+    21300024: oppcastle-tiles_12
+    21300026: oppcastle-tiles_13
+    21300028: oppcastle-tiles_14
+    21300030: oppcastle-tiles_15
+    21300032: oppcastle-tiles_16
+    21300034: oppcastle-tiles_17
+    21300036: oppcastle-tiles_18
+    21300038: oppcastle-tiles_19
+    21300040: oppcastle-tiles_20
+    21300042: oppcastle-tiles_21
+    21300044: oppcastle-tiles_22
+    21300046: oppcastle-tiles_23
+    21300048: oppcastle-tiles_24
+    21300050: oppcastle-tiles_25
+    21300052: oppcastle-tiles_26
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: oppcastle-tiles_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 98
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 303
+        width: 96
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 271
+        width: 64
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 244
+        width: 96
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 95
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 165
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 180
+        width: 128
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 131
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_9
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 33
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_10
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 33
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_11
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 223
+        width: 60
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_12
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 223
+        width: 31
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_13
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 195
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 96
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 127
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_16
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 97
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_18
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 32
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_19
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 132
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_20
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 131
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_21
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 96
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_22
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 96
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_23
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 96
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_24
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 288
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-tiles_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 193
+        width: 95
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

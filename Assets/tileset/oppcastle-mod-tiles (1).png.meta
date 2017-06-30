@@ -1,0 +1,314 @@
+fileFormatVersion: 2
+guid: 6676dd0635aa37c499467e814b3d16d8
+timeCreated: 1498845959
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: oppcastle-mod-tiles (1)_0
+    21300002: oppcastle-mod-tiles (1)_1
+    21300004: oppcastle-mod-tiles (1)_2
+    21300006: oppcastle-mod-tiles (1)_3
+    21300008: oppcastle-mod-tiles (1)_4
+    21300010: oppcastle-mod-tiles (1)_5
+    21300012: oppcastle-mod-tiles (1)_6
+    21300014: oppcastle-mod-tiles (1)_7
+    21300016: oppcastle-mod-tiles (1)_8
+    21300018: oppcastle-mod-tiles (1)_9
+    21300020: oppcastle-mod-tiles (1)_10
+    21300022: oppcastle-mod-tiles (1)_11
+    21300024: oppcastle-mod-tiles (1)_12
+    21300026: oppcastle-mod-tiles (1)_13
+    21300028: oppcastle-mod-tiles (1)_14
+    21300030: oppcastle-mod-tiles (1)_15
+    21300032: oppcastle-mod-tiles (1)_16
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: oppcastle-mod-tiles (1)_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-mod-tiles (1)_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 225
+        width: 97
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-mod-tiles (1)_2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 303
+        width: 96
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-mod-tiles (1)_3
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 257
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-mod-tiles (1)_4
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 271
+        width: 64
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-mod-tiles (1)_5
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 244
+        width: 96
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-mod-tiles (1)_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 226
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-mod-tiles (1)_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 180
+        width: 128
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-mod-tiles (1)_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 192
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-mod-tiles (1)_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 63
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-mod-tiles (1)_10
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 225
+        width: 62
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-mod-tiles (1)_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 289
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-mod-tiles (1)_12
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 225
+        width: 33
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-mod-tiles (1)_13
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 192
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-mod-tiles (1)_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 192
+        width: 95
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-mod-tiles (1)_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oppcastle-mod-tiles (1)_16
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 64
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
