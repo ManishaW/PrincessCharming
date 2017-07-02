@@ -1,14 +1,18 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-
+Project("{4E67D63E-26D4-5ACA-BC9B-1F307D6B5955}") = "Princess Charming", "Assembly-CSharp.csproj", "{20C1DF64-7DC7-8ECD-6559-5B0E0B987BDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{20C1DF64-7DC7-8ECD-6559-5B0E0B987BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C1DF64-7DC7-8ECD-6559-5B0E0B987BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C1DF64-7DC7-8ECD-6559-5B0E0B987BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C1DF64-7DC7-8ECD-6559-5B0E0B987BDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
