@@ -345,6 +345,10 @@ Prefab:
       propertyPath: m_Name
       value: Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 1527424546923428, guid: 19b6c7aee2fb0bf44bde05c7bbc308ce, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 19b6c7aee2fb0bf44bde05c7bbc308ce, type: 2}
   m_IsPrefabParent: 0
@@ -684,6 +688,10 @@ Prefab:
     - target: {fileID: 1331354055967484, guid: d7b97964557fa824fa1ec9d9abb55158, type: 2}
       propertyPath: m_Name
       value: HelpPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1331354055967484, guid: d7b97964557fa824fa1ec9d9abb55158, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d7b97964557fa824fa1ec9d9abb55158, type: 2}
