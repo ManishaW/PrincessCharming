@@ -1,0 +1,2666 @@
+fileFormatVersion: 2
+guid: 6735a45256eff7542b3f466374cd37b6
+timeCreated: 1499452387
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: castle_final_edit03_0
+    21300002: castle_final_edit03_1
+    21300004: castle_final_edit03_2
+    21300006: castle_final_edit03_3
+    21300008: castle_final_edit03_4
+    21300010: castle_final_edit03_5
+    21300012: castle_final_edit03_6
+    21300014: castle_final_edit03_7
+    21300016: castle_final_edit03_8
+    21300018: castle_final_edit03_9
+    21300020: castle_final_edit03_10
+    21300022: castle_final_edit03_11
+    21300024: castle_final_edit03_12
+    21300026: castle_final_edit03_13
+    21300028: castle_final_edit03_14
+    21300030: castle_final_edit03_15
+    21300032: castle_final_edit03_16
+    21300034: castle_final_edit03_17
+    21300036: castle_final_edit03_18
+    21300038: castle_final_edit03_19
+    21300040: castle_final_edit03_20
+    21300042: castle_final_edit03_21
+    21300044: castle_final_edit03_22
+    21300046: castle_final_edit03_23
+    21300048: castle_final_edit03_24
+    21300050: castle_final_edit03_25
+    21300052: castle_final_edit03_26
+    21300054: castle_final_edit03_27
+    21300056: castle_final_edit03_28
+    21300058: castle_final_edit03_29
+    21300060: castle_final_edit03_30
+    21300062: castle_final_edit03_31
+    21300064: castle_final_edit03_32
+    21300066: castle_final_edit03_33
+    21300068: castle_final_edit03_34
+    21300070: castle_final_edit03_35
+    21300072: castle_final_edit03_36
+    21300074: castle_final_edit03_37
+    21300076: castle_final_edit03_38
+    21300078: castle_final_edit03_39
+    21300080: castle_final_edit03_40
+    21300082: castle_final_edit03_41
+    21300084: castle_final_edit03_42
+    21300086: castle_final_edit03_43
+    21300088: castle_final_edit03_44
+    21300090: castle_final_edit03_45
+    21300092: castle_final_edit03_46
+    21300094: castle_final_edit03_47
+    21300096: castle_final_edit03_48
+    21300098: castle_final_edit03_49
+    21300100: castle_final_edit03_50
+    21300102: castle_final_edit03_51
+    21300104: castle_final_edit03_52
+    21300106: castle_final_edit03_53
+    21300108: castle_final_edit03_54
+    21300110: castle_final_edit03_55
+    21300112: castle_final_edit03_56
+    21300114: castle_final_edit03_57
+    21300116: castle_final_edit03_58
+    21300118: castle_final_edit03_59
+    21300120: castle_final_edit03_60
+    21300122: castle_final_edit03_61
+    21300124: castle_final_edit03_62
+    21300126: castle_final_edit03_63
+    21300128: castle_final_edit03_64
+    21300130: castle_final_edit03_65
+    21300132: castle_final_edit03_66
+    21300134: castle_final_edit03_67
+    21300136: castle_final_edit03_68
+    21300138: castle_final_edit03_69
+    21300140: castle_final_edit03_70
+    21300142: castle_final_edit03_71
+    21300144: castle_final_edit03_72
+    21300146: castle_final_edit03_73
+    21300148: castle_final_edit03_74
+    21300150: castle_final_edit03_75
+    21300152: castle_final_edit03_76
+    21300154: castle_final_edit03_77
+    21300156: castle_final_edit03_78
+    21300158: castle_final_edit03_79
+    21300160: castle_final_edit03_80
+    21300162: castle_final_edit03_81
+    21300164: castle_final_edit03_82
+    21300166: castle_final_edit03_83
+    21300168: castle_final_edit03_84
+    21300170: castle_final_edit03_85
+    21300172: castle_final_edit03_86
+    21300174: castle_final_edit03_87
+    21300176: castle_final_edit03_88
+    21300178: castle_final_edit03_89
+    21300180: castle_final_edit03_90
+    21300182: castle_final_edit03_91
+    21300184: castle_final_edit03_92
+    21300186: castle_final_edit03_93
+    21300188: castle_final_edit03_94
+    21300190: castle_final_edit03_95
+    21300192: castle_final_edit03_96
+    21300194: castle_final_edit03_97
+    21300196: castle_final_edit03_98
+    21300198: castle_final_edit03_99
+    21300200: castle_final_edit03_100
+    21300202: castle_final_edit03_101
+    21300204: castle_final_edit03_102
+    21300206: castle_final_edit03_103
+    21300208: castle_final_edit03_104
+    21300210: castle_final_edit03_105
+    21300212: castle_final_edit03_106
+    21300214: castle_final_edit03_107
+    21300216: castle_final_edit03_108
+    21300218: castle_final_edit03_109
+    21300220: castle_final_edit03_110
+    21300222: castle_final_edit03_111
+    21300224: castle_final_edit03_112
+    21300226: castle_final_edit03_113
+    21300228: castle_final_edit03_114
+    21300230: castle_final_edit03_115
+    21300232: castle_final_edit03_116
+    21300234: castle_final_edit03_117
+    21300236: castle_final_edit03_118
+    21300238: castle_final_edit03_119
+    21300240: castle_final_edit03_120
+    21300242: castle_final_edit03_121
+    21300244: castle_final_edit03_122
+    21300246: castle_final_edit03_123
+    21300248: castle_final_edit03_124
+    21300250: castle_final_edit03_125
+    21300252: castle_final_edit03_126
+    21300254: castle_final_edit03_127
+    21300256: castle_final_edit03_128
+    21300258: castle_final_edit03_129
+    21300260: castle_final_edit03_130
+    21300262: castle_final_edit03_131
+    21300264: castle_final_edit03_132
+    21300266: castle_final_edit03_133
+    21300268: castle_final_edit03_134
+    21300270: castle_final_edit03_135
+    21300272: castle_final_edit03_136
+    21300274: castle_final_edit03_137
+    21300276: castle_final_edit03_138
+    21300278: castle_final_edit03_139
+    21300280: castle_final_edit03_140
+    21300282: castle_final_edit03_141
+    21300284: castle_final_edit03_142
+    21300286: castle_final_edit03_143
+    21300288: castle_final_edit03_144
+    21300290: castle_final_edit03_145
+    21300292: castle_final_edit03_146
+    21300294: castle_final_edit03_147
+    21300296: castle_final_edit03_148
+    21300298: castle_final_edit03_149
+    21300300: castle_final_edit03_150
+    21300302: castle_final_edit03_151
+    21300304: castle_final_edit03_152
+    21300306: castle_final_edit03_153
+    21300308: castle_final_edit03_154
+    21300310: castle_final_edit03_155
+    21300312: castle_final_edit03_156
+    21300314: castle_final_edit03_157
+    21300316: castle_final_edit03_158
+    21300318: castle_final_edit03_159
+    21300320: castle_final_edit03_160
+    21300322: castle_final_edit03_161
+    21300324: castle_final_edit03_162
+    21300326: castle_final_edit03_163
+    21300328: castle_final_edit03_164
+    21300330: castle_final_edit03_165
+    21300332: castle_final_edit03_166
+    21300334: castle_final_edit03_167
+    21300336: castle_final_edit03_168
+    21300338: castle_final_edit03_169
+    21300340: castle_final_edit03_170
+    21300342: castle_final_edit03_171
+    21300344: castle_final_edit03_172
+    21300346: castle_final_edit03_173
+    21300348: castle_final_edit03_174
+    21300350: castle_final_edit03_175
+    21300352: castle_final_edit03_176
+    21300354: castle_final_edit03_177
+    21300356: castle_final_edit03_178
+    21300358: castle_final_edit03_179
+    21300360: castle_final_edit03_180
+    21300362: castle_final_edit03_181
+    21300364: castle_final_edit03_182
+    21300366: castle_final_edit03_183
+    21300368: castle_final_edit03_184
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: castle_final_edit03_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 479
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 479
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 479
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_3
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 479
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_4
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 479
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_5
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 479
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_6
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 446
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_7
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 446
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_9
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_11
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_12
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_13
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_14
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_15
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_16
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_17
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_18
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_19
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 446
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_20
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_21
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_22
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 446
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_23
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_24
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_25
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 446
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_26
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_27
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_28
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_29
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_30
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_31
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 440
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_32
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_33
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_34
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_35
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_36
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_37
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_38
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_39
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 413
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_40
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 413
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_41
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_42
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_43
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_44
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_45
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_46
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_47
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_48
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_49
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_50
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_51
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_52
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_53
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_54
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_55
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_56
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_57
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_58
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_59
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_60
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_61
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 374
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_62
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 374
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_63
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 374
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_64
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 374
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_65
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 347
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_66
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 347
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_67
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 314
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_68
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 314
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_69
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 314
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_70
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 314
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_71
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 314
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_72
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 314
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_73
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 314
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_74
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 314
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_75
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 314
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_76
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 314
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_77
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 314
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_78
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 314
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_79
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 314
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_80
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 314
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_81
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 314
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_82
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 314
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_83
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 314
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_84
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 314
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_85
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 314
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_86
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 314
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_87
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 314
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_88
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 314
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_89
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_90
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_91
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_92
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_93
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_94
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_95
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_96
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_97
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_98
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_99
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_100
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 281
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_101
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 281
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_102
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 281
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_103
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 281
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_104
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 281
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_105
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 281
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_106
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 281
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_107
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 281
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_108
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 281
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_109
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 281
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_110
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 281
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_111
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 281
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_112
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 281
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_113
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 248
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_114
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 248
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_115
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 248
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_116
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 248
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_117
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 248
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_118
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 248
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_119
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_120
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_121
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_122
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_123
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_124
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 248
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_125
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 248
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_126
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 248
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_127
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 248
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_128
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 248
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_129
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 248
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_130
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 248
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_131
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 248
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_132
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 248
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_133
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 248
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_134
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_135
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_136
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_137
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_138
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_139
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_140
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_141
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_142
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_143
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_144
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_145
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_146
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 215
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_147
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 215
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_148
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 215
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_149
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 215
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_150
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 215
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_151
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 215
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_152
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 215
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_153
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 215
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_154
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 215
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_155
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 215
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_156
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 149
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_157
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 157
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_158
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 149
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_159
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 149
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_160
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 157
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_161
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 149
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_162
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 149
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_163
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_164
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_165
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_166
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 149
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_167
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 149
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_168
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 149
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_169
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_170
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 150
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_171
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 150
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_172
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 156
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_173
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 159
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_174
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 155
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_175
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 149
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_176
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 149
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_177
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 124
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_178
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 139
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_179
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 139
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_180
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 124
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_181
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 121
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_182
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 121
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_183
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 121
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: castle_final_edit03_184
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 121
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
