@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelSelectScript : MonoBehaviour {
 
@@ -14,6 +15,10 @@ public class LevelSelectScript : MonoBehaviour {
 		
 	}
 	public void level1OnClick(){
-		Application.LoadLevel("MainMenu");
+		Application.LoadLevel ("Level3");
 	}
+	public void backToMainMenuOnClick(){
+		SceneManager.LoadScene("MainMenu");
+	}
+
 }
