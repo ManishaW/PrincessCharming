@@ -5,8 +5,8 @@ using UnityEngine;
 public class playerController : MonoBehaviour {
 
 	//variables
-	public float maxSpeed = 3;
-	public float speed = 60f;
+	private float maxSpeed = 6f;
+	private float speed = 6f;
 
 	public bool grounded;
 	private bool facingRight;
@@ -38,26 +38,15 @@ public class playerController : MonoBehaviour {
 		}
 
 		//jumping
-		if(Input.GetButtonDown("Jump"))  {
+		if(Input.GetButtonDown("Vertical"))  {
 			//if the player is on the ground
 			if (grounded) {
-				rb2d.AddForce (Vector2.up * 80f);
+				rb2d.AddForce (Vector2.up * 200f);
 			}
 		}
 	}
 
 	void FixedUpdate(){
-
-	//ector3 isVelocity = rb2d.velocity;
-//isVelocity.y = rb2d.velocity.y;
-//isVelocity.x = isVelocity.x * 0.75f;
-//isVelocity.z = 0.0f;
-
-		//make friction on ground using xspeed of player
-//if (grounded){
-
-//	rb2d.velocity = isVelocity;
-//}
 
 		//moving player horizontally
 		float hor = Input.GetAxis("Horizontal");

@@ -7,7 +7,7 @@ public class cameraBorder : MonoBehaviour {
 	//far left
 	private float minPos = -0.86f; 
 	//far right
-	private float maxPos = 9.20f;
+	private float maxPos = 11.5f;
 
 	private Vector2 velocity;
 	public float smoothTimeX;
