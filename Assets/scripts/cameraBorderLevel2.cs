@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cameraBorder : MonoBehaviour {
+public class cameraBorderLevel2 : MonoBehaviour {
 
 	//far left
-	private float minPos = -0.86f; 
+	private float minPos = 4.5f; 
 	//far right
-	private float maxPos = 11.5f;
+	private float maxPos = 7.5f;
 
 	private Vector2 velocity;
 	public float smoothTimeX;
