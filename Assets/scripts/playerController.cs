@@ -5,12 +5,12 @@ using UnityEngine;
 public class playerController : MonoBehaviour {
 
 	//variables
-	private float maxSpeed = 6f;
-	private float speed = 6f;
+	private float maxSpeed = 50f;
+	private float speed = 50f;
 
 	public bool grounded;
 	private bool facingRight;
-
+	public bool hasKey;
 
 	private Rigidbody2D rb2d;
 
@@ -27,22 +27,29 @@ public class playerController : MonoBehaviour {
 		//moving left
 		if(Input.GetAxis("Horizontal") < -0.1f) {
 			facingRight = false;
-			transform.localScale = new Vector3(-1, 1, 1);
+			transform.localScale = new Vector3(-0.24f, 0.24f, 1);
 		}
 
 		//moving right
 		if (Input.GetAxis("Horizontal") > 0.1f)
 		{
 			facingRight = true;
-			transform.localScale = new Vector3(1, 1, 1);
+			transform.localScale = new Vector3(0.24f, 0.24f, 1);
 		}
 
 		//jumping
 		if(Input.GetButtonDown("Vertical"))  {
 			//if the player is on the ground
 			if (grounded) {
-				rb2d.AddForce (Vector2.up * 200f);
+				rb2d.AddForce(Vector2.up * 150f );
 			}
+		}
+
+	}
+
+	void OnTriggerEnter2D(Collider2D col){
+		if (col.gameObject.name.Contains ("gem")) {
+			Destroy (col.gameObject);
 		}
 	}
 
@@ -50,8 +57,9 @@ public class playerController : MonoBehaviour {
 
 		//moving player horizontally
 		float hor = Input.GetAxis("Horizontal");
-		rb2d.AddForce((Vector2.right * speed) * hor);
-
+	///	rb2d.AddForce((Vector2.right * speed) * hor);
+		rb2d.velocity = new Vector2 (hor * speed * Time.deltaTime, rb2d.velocity.y);
+	
 		//limiting speed of player
 		if (rb2d.velocity.x > maxSpeed) {
 			rb2d.velocity = new Vector2(maxSpeed, rb2d.velocity.y);
@@ -62,4 +70,11 @@ public class playerController : MonoBehaviour {
 		}
 	}
 
+	public void setKey(bool obtained){
+		hasKey = obtained;
+	}
+
+	public bool getKey(){
+		return hasKey;
+	}
 }
