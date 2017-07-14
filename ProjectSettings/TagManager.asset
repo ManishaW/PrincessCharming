@@ -6,6 +6,7 @@ TagManager:
   tags:
   - key
   - keyCanvas
+  - gemCount
   layers:
   - Default
   - TransparentFX
