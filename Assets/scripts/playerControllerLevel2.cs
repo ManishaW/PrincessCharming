@@ -27,14 +27,14 @@ public class playerControllerLevel2 : MonoBehaviour {
 		//moving left
 		if(Input.GetAxis("Horizontal") < -0.1f) {
 			facingRight = false;
-			transform.localScale = new Vector3(-0.5f, 0.5f, 1);
+			transform.localScale = new Vector3(-0.24f, 0.24f, 1);
 		}
 
 		//moving right
 		if (Input.GetAxis("Horizontal") > 0.1f)
 		{
 			facingRight = true;
-			transform.localScale = new Vector3(0.5f, 0.5f, 1);
+			transform.localScale = new Vector3(0.24f, 0.24f, 1);
 		}
 
 		//jumping
