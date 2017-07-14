@@ -1,6 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Linq;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class playerController : MonoBehaviour {
 
@@ -10,7 +13,10 @@ public class playerController : MonoBehaviour {
 
 	public bool grounded;
 	private bool facingRight;
-	private bool hasKey;
+
+	public bool hasKey;
+	private Text counter;
+
 
 	private Rigidbody2D rb2d;
 
@@ -18,6 +24,7 @@ public class playerController : MonoBehaviour {
 	void Start () {
 		rb2d = gameObject.GetComponent<Rigidbody2D>();
 		facingRight = true;
+		counter = GameObject.FindWithTag("gemCount").GetComponent<Text>();
 	}
 
 	// Update is called once per frame
@@ -50,6 +57,11 @@ public class playerController : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col){
 		if (col.gameObject.name.Contains ("gem")) {
 			Destroy (col.gameObject);
+			Debug.Log ("number");
+			int count = Int32.Parse(counter.text);
+			count++;
+			counter.text = count.ToString();
+
 		}
 	}
 
