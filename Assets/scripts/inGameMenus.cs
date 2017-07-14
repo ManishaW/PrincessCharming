@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class inGameMenus : MonoBehaviour {
 
@@ -35,6 +36,8 @@ public class inGameMenus : MonoBehaviour {
 
 	public void onRetryFail(){
 		Debug.Log ("onRetryFailed!");
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		Time.timeScale = 1;
 		failPanel.SetActive (false);
 	}
 	public void onLevelSelectFail(){

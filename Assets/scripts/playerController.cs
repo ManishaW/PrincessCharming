@@ -10,7 +10,7 @@ public class playerController : MonoBehaviour {
 
 	public bool grounded;
 	private bool facingRight;
-	public bool hasKey;
+	private bool hasKey;
 
 	private Rigidbody2D rb2d;
 
@@ -41,7 +41,7 @@ public class playerController : MonoBehaviour {
 		if(Input.GetButtonDown("Vertical"))  {
 			//if the player is on the ground
 			if (grounded) {
-				rb2d.AddForce(Vector2.up * 150f );
+				rb2d.AddForce(Vector2.up * 170f );
 			}
 		}
 
@@ -57,7 +57,6 @@ public class playerController : MonoBehaviour {
 
 		//moving player horizontally
 		float hor = Input.GetAxis("Horizontal");
-	///	rb2d.AddForce((Vector2.right * speed) * hor);
 		rb2d.velocity = new Vector2 (hor * speed * Time.deltaTime, rb2d.velocity.y);
 	
 		//limiting speed of player
