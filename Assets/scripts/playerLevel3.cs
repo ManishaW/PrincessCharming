@@ -5,12 +5,12 @@ using UnityEngine;
 public class playerLevel3 : MonoBehaviour {
 
 	//variables
-	private float maxSpeed = 5;
-	private float speed = 5;
+	private float maxSpeed = 60f;
+	private float speed = 60f;
 
 	public bool grounded;
 	private bool facingRight;
-
+	public bool hasKey;
 
 	private Rigidbody2D rb2d;
 
@@ -42,7 +42,7 @@ public class playerLevel3 : MonoBehaviour {
 		if(Input.GetButtonDown("Jump"))  {
 			//if the player is on the ground
 			if (grounded) {
-				rb2d.AddForce (Vector2.up * 150f);
+				rb2d.AddForce (Vector2.up * 170f);
 			}
 		}
 	}
@@ -56,30 +56,26 @@ public class playerLevel3 : MonoBehaviour {
 
 	void FixedUpdate(){
 
-		//ector3 isVelocity = rb2d.velocity;
-		//isVelocity.y = rb2d.velocity.y;
-		//isVelocity.x = isVelocity.x * 0.75f;
-		//isVelocity.z = 0.0f;
-
-		//make friction on ground using xspeed of player
-		//if (grounded){
-
-		//	rb2d.velocity = isVelocity;
-		//}
-
 		//moving player horizontally
 		float hor = Input.GetAxis("Horizontal");
-		rb2d.AddForce((Vector2.right * speed) * hor);
+		///	rb2d.AddForce((Vector2.right * speed) * hor);
+		rb2d.velocity = new Vector2 (hor * speed * Time.deltaTime, rb2d.velocity.y);
 
-//		//limiting speed of player
-//		if (rb2d.velocity.x > maxSpeed) {
-//			rb2d.velocity = new Vector2(maxSpeed, rb2d.velocity.y);
-//		}
-//
-//		if(rb2d.velocity.x < -maxSpeed) {
-//			rb2d.velocity = new Vector2(-maxSpeed, rb2d.velocity.y);
-//		}
+		//limiting speed of player
+		if (rb2d.velocity.x > maxSpeed) {
+			rb2d.velocity = new Vector2(maxSpeed, rb2d.velocity.y);
+		}
+
+		if(rb2d.velocity.x < -maxSpeed) {
+			rb2d.velocity = new Vector2(-maxSpeed, rb2d.velocity.y);
+		}
 	}
 
+	public void setKey(bool obtained){
+		hasKey = obtained;
+	}
 
+	public bool getKey(){
+		return hasKey;
+	}
 }
