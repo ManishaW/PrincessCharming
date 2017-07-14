@@ -1,6 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Linq;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class playerController : MonoBehaviour {
 
@@ -10,7 +13,10 @@ public class playerController : MonoBehaviour {
 
 	public bool grounded;
 	private bool facingRight;
+
 	public bool hasKey;
+	private Text counter;
+
 
 	private Rigidbody2D rb2d;
 
@@ -18,6 +24,7 @@ public class playerController : MonoBehaviour {
 	void Start () {
 		rb2d = gameObject.GetComponent<Rigidbody2D>();
 		facingRight = true;
+		counter = GameObject.FindWithTag("gemCount").GetComponent<Text>();
 	}
 
 	// Update is called once per frame
@@ -41,7 +48,7 @@ public class playerController : MonoBehaviour {
 		if(Input.GetButtonDown("Vertical"))  {
 			//if the player is on the ground
 			if (grounded) {
-				rb2d.AddForce(Vector2.up * 150f );
+				rb2d.AddForce(Vector2.up * 170f );
 			}
 		}
 
@@ -50,6 +57,11 @@ public class playerController : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col){
 		if (col.gameObject.name.Contains ("gem")) {
 			Destroy (col.gameObject);
+			Debug.Log ("number");
+			int count = Int32.Parse(counter.text);
+			count++;
+			counter.text = count.ToString();
+
 		}
 	}
 
@@ -57,7 +69,6 @@ public class playerController : MonoBehaviour {
 
 		//moving player horizontally
 		float hor = Input.GetAxis("Horizontal");
-	///	rb2d.AddForce((Vector2.right * speed) * hor);
 		rb2d.velocity = new Vector2 (hor * speed * Time.deltaTime, rb2d.velocity.y);
 	
 		//limiting speed of player
