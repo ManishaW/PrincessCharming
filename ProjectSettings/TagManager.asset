@@ -7,6 +7,10 @@ TagManager:
   - key
   - keyCanvas
   - gemCount
+  - ouch
+  - egg
+  - time
+  - timer
   layers:
   - Default
   - TransparentFX

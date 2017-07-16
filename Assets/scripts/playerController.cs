@@ -10,13 +10,17 @@ public class playerController : MonoBehaviour {
 	//variables
 	private float maxSpeed = 50f;
 	private float speed = 50f;
-
+	public GameObject failedCanvas;
 	public bool grounded;
 	private bool facingRight;
-
+	public float timeLeft=60f;
 	public bool hasKey;
 	private Text counter;
+	private Text timer;
+	public static bool gamePaused= false;
 
+
+		
 
 	private Rigidbody2D rb2d;
 
@@ -25,6 +29,8 @@ public class playerController : MonoBehaviour {
 		rb2d = gameObject.GetComponent<Rigidbody2D>();
 		facingRight = true;
 		counter = GameObject.FindWithTag("gemCount").GetComponent<Text>();
+		timer = GameObject.FindWithTag("timer").GetComponent<Text>();
+		timer.text = timeLeft.ToString("f0");
 	}
 
 	// Update is called once per frame
@@ -52,6 +58,13 @@ public class playerController : MonoBehaviour {
 			}
 		}
 
+		if (!gamePaused) {
+			timeLeft -= Time.deltaTime;
+			timer.text = timeLeft.ToString ("f0");
+			if (timeLeft < 0) {
+				GameOver ();
+			}
+		}
 	}
 
 	void OnTriggerEnter2D(Collider2D col){
@@ -87,5 +100,12 @@ public class playerController : MonoBehaviour {
 
 	public bool getKey(){
 		return hasKey;
+	}
+
+	void GameOver(){
+		failedCanvas.SetActive(true);
+		GameObject.FindWithTag ("ouch").GetComponent<Text> ().text = "Time's Up!";
+		GameObject.FindWithTag ("egg").SetActive (false);
+		Time.timeScale = 0.0f;
 	}
 }
