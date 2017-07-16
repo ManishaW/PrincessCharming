@@ -21,6 +21,12 @@ public class inGameMenus : MonoBehaviour {
 
 		helpPanel.SetActive (false);
 	}
+	public void onPause() {
+		Debug.Log ("onPause!");
+		playerController.gamePaused = true;
+		pausePanel.SetActive (true);
+	}
+
 	public void onRestartPause(){
 		Debug.Log ("onRestartPause!");
 		pausePanel.SetActive (false);
@@ -28,6 +34,7 @@ public class inGameMenus : MonoBehaviour {
 	public void onContinuePause(){
 		Debug.Log ("onContinuePause!");
 		pausePanel.SetActive (false);
+		playerController.gamePaused = false;
 	}
 	public void onLevelSelectPause(){
 		Debug.Log ("onLevelSelectPause!");
@@ -47,6 +54,8 @@ public class inGameMenus : MonoBehaviour {
 
 	public void onRetryPassed(){
 		Debug.Log ("onRetryPassed");
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		Time.timeScale = 1;
 		passPanel.SetActive (false);
 	}
 	public void onContinuePassed(){

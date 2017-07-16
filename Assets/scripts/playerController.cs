@@ -17,7 +17,7 @@ public class playerController : MonoBehaviour {
 	public bool hasKey;
 	private Text counter;
 	private Text timer;
-
+	public static bool gamePaused= false;
 
 
 		
@@ -58,13 +58,13 @@ public class playerController : MonoBehaviour {
 			}
 		}
 
-		timeLeft -= Time.deltaTime;
-		timer.text = timeLeft.ToString("f0");
-			if(timeLeft < 0)
-			{
-				GameOver();
+		if (!gamePaused) {
+			timeLeft -= Time.deltaTime;
+			timer.text = timeLeft.ToString ("f0");
+			if (timeLeft < 0) {
+				GameOver ();
 			}
-
+		}
 	}
 
 	void OnTriggerEnter2D(Collider2D col){
