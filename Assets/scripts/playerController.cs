@@ -13,9 +13,10 @@ public class playerController : MonoBehaviour {
 	public GameObject failedCanvas;
 	public bool grounded;
 	private bool facingRight;
-	float timeLeft = 30.0f;
+	public float timeLeft=60f;
 	public bool hasKey;
 	private Text counter;
+	private Text timer;
 
 
 
@@ -28,7 +29,8 @@ public class playerController : MonoBehaviour {
 		rb2d = gameObject.GetComponent<Rigidbody2D>();
 		facingRight = true;
 		counter = GameObject.FindWithTag("gemCount").GetComponent<Text>();
-
+		timer = GameObject.FindWithTag("timer").GetComponent<Text>();
+		timer.text = timeLeft.ToString("f0");
 	}
 
 	// Update is called once per frame
@@ -57,7 +59,7 @@ public class playerController : MonoBehaviour {
 		}
 
 		timeLeft -= Time.deltaTime;
-
+		timer.text = timeLeft.ToString("f0");
 			if(timeLeft < 0)
 			{
 				GameOver();

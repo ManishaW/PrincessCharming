@@ -690,6 +690,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   failedCanvas: {fileID: 1009282837}
   grounded: 0
+  timeLeft: 60
   hasKey: 0
 --- !u!60 &44700895
 PolygonCollider2D:
@@ -3942,7 +3943,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 294, y: 263}
+  m_AnchoredPosition: {x: 316, y: 225}
   m_SizeDelta: {x: 214, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &291913209
@@ -4617,7 +4618,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 349, y: 265}
+  m_AnchoredPosition: {x: 371, y: 227}
   m_SizeDelta: {x: 214, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &355737746
@@ -5222,8 +5223,8 @@ GameObject:
   m_Component:
   - component: {fileID: 379045875}
   - component: {fileID: 379045876}
-  - component: {fileID: 379045877}
   - component: {fileID: 379045878}
+  - component: {fileID: 379045877}
   m_Layer: 0
   m_Name: gem (14)
   m_TagString: Untagged
@@ -5288,7 +5289,7 @@ Animator:
   m_GameObject: {fileID: 379045874}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1951b7bf3a67047ccafbbf3d2dc9f58d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 30607d301d8f041469163f5dd88e0f22, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5626,7 +5627,7 @@ GameObject:
   - component: {fileID: 391937236}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: timer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5646,7 +5647,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 317, y: 261}
+  m_AnchoredPosition: {x: 339, y: 223}
   m_SizeDelta: {x: 30, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &391937236
@@ -5681,7 +5682,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 60
+  m_Text: 
 --- !u!222 &391937237
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8874,8 +8875,8 @@ GameObject:
   m_Component:
   - component: {fileID: 605926437}
   - component: {fileID: 605926438}
-  - component: {fileID: 605926439}
   - component: {fileID: 605926440}
+  - component: {fileID: 605926439}
   m_Layer: 0
   m_Name: gem (10)
   m_TagString: Untagged
@@ -8940,7 +8941,7 @@ Animator:
   m_GameObject: {fileID: 605926436}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f506bc08a8d0c49dd8700f4396c49a90, type: 2}
+  m_Controller: {fileID: 9100000, guid: 937fc0bdbf505499897a15326c9d5dac, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -9603,8 +9604,8 @@ GameObject:
   m_Component:
   - component: {fileID: 683469897}
   - component: {fileID: 683469898}
-  - component: {fileID: 683469899}
   - component: {fileID: 683469900}
+  - component: {fileID: 683469899}
   m_Layer: 0
   m_Name: gem (17)
   m_TagString: Untagged
@@ -9669,7 +9670,7 @@ Animator:
   m_GameObject: {fileID: 683469896}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a41b256633e2f449dac092c88e242d98, type: 2}
+  m_Controller: {fileID: 9100000, guid: 07041f4cc070d4428b2d82ed8950145e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -10373,8 +10374,8 @@ GameObject:
   m_Component:
   - component: {fileID: 711112050}
   - component: {fileID: 711112051}
-  - component: {fileID: 711112052}
   - component: {fileID: 711112053}
+  - component: {fileID: 711112052}
   m_Layer: 0
   m_Name: gem (2)
   m_TagString: Untagged
@@ -10439,7 +10440,7 @@ Animator:
   m_GameObject: {fileID: 711112049}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a5a93e074e17143d8b36758e5b5048c5, type: 2}
+  m_Controller: {fileID: 9100000, guid: fb8e4a5e9caa24cfb949fdbd2a155aab, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -11978,7 +11979,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 400, y: 265}
+  m_AnchoredPosition: {x: 422, y: 227}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &809636949
@@ -12413,8 +12414,8 @@ GameObject:
   m_Component:
   - component: {fileID: 836946901}
   - component: {fileID: 836946902}
-  - component: {fileID: 836946903}
   - component: {fileID: 836946904}
+  - component: {fileID: 836946903}
   m_Layer: 0
   m_Name: gem (6)
   m_TagString: Untagged
@@ -12479,7 +12480,7 @@ Animator:
   m_GameObject: {fileID: 836946900}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bda6761c29ee2441b9fd23880481bd94, type: 2}
+  m_Controller: {fileID: 9100000, guid: 65e5bb3fcd9694f4aa8004654f1e5fd5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -16067,8 +16068,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1125065633}
   - component: {fileID: 1125065634}
-  - component: {fileID: 1125065635}
   - component: {fileID: 1125065636}
+  - component: {fileID: 1125065635}
   m_Layer: 0
   m_Name: gem (12)
   m_TagString: Untagged
@@ -16133,7 +16134,7 @@ Animator:
   m_GameObject: {fileID: 1125065632}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9c4af96748f4c43b08be5015d556f994, type: 2}
+  m_Controller: {fileID: 9100000, guid: 44caf9f7c55ef43378c7621f966f6707, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -16776,7 +16777,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 346, y: 262}
+  m_AnchoredPosition: {x: 368, y: 224}
   m_SizeDelta: {x: 214, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1171997759
@@ -17574,8 +17575,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1254773395}
   - component: {fileID: 1254773396}
-  - component: {fileID: 1254773397}
   - component: {fileID: 1254773398}
+  - component: {fileID: 1254773397}
   m_Layer: 0
   m_Name: gem (4)
   m_TagString: Untagged
@@ -17640,7 +17641,7 @@ Animator:
   m_GameObject: {fileID: 1254773394}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ebde9b94201564433ac488cc06c0faf3, type: 2}
+  m_Controller: {fileID: 9100000, guid: cb4c36f0bbd0c4fa8b8f285720fe2732, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -18600,8 +18601,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1306206393}
   - component: {fileID: 1306206394}
-  - component: {fileID: 1306206395}
   - component: {fileID: 1306206396}
+  - component: {fileID: 1306206395}
   m_Layer: 0
   m_Name: gem (8)
   m_TagString: Untagged
@@ -18666,7 +18667,7 @@ Animator:
   m_GameObject: {fileID: 1306206392}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5547df225102f46fb8548d3d00d21f00, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4e31330c5dabb4699a5b715c35e8e586, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -22178,8 +22179,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1502002727}
   - component: {fileID: 1502002728}
-  - component: {fileID: 1502002729}
   - component: {fileID: 1502002730}
+  - component: {fileID: 1502002729}
   m_Layer: 0
   m_Name: gem (15)
   m_TagString: Untagged
@@ -22244,7 +22245,7 @@ Animator:
   m_GameObject: {fileID: 1502002726}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2426bda1c742f4b46b5cc3251a9dee0c, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6715a5e97ac604c1ab1d47214ef5a3e9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -23600,8 +23601,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1601583754}
   - component: {fileID: 1601583755}
-  - component: {fileID: 1601583756}
   - component: {fileID: 1601583757}
+  - component: {fileID: 1601583756}
   m_Layer: 0
   m_Name: gem (18)
   m_TagString: Untagged
@@ -23666,7 +23667,7 @@ Animator:
   m_GameObject: {fileID: 1601583753}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8f27d20c81d4b403dba6a5e37156aa62, type: 2}
+  m_Controller: {fileID: 9100000, guid: 12acaefb41b6248fc878165e9d2d52fe, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -25903,8 +25904,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1776447947}
   - component: {fileID: 1776447948}
-  - component: {fileID: 1776447949}
   - component: {fileID: 1776447950}
+  - component: {fileID: 1776447949}
   m_Layer: 0
   m_Name: gem (19)
   m_TagString: Untagged
@@ -25969,7 +25970,7 @@ Animator:
   m_GameObject: {fileID: 1776447946}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 68d98e8f904424a5aba3d77673fdd7c7, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8142c72d0bb6242b7aaf8c9b8388a83f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -26209,7 +26210,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 372, y: 262}
+  m_AnchoredPosition: {x: 394, y: 224}
   m_SizeDelta: {x: 30, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1781324572
@@ -26260,8 +26261,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1784411226}
   - component: {fileID: 1784411227}
-  - component: {fileID: 1784411228}
   - component: {fileID: 1784411229}
+  - component: {fileID: 1784411228}
   m_Layer: 0
   m_Name: gem (11)
   m_TagString: Untagged
@@ -26326,7 +26327,7 @@ Animator:
   m_GameObject: {fileID: 1784411225}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 097dd25bf75744fd9a394b8e88b5c502, type: 2}
+  m_Controller: {fileID: 9100000, guid: abb5d1f7aec934d9a8567748b34d99ba, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -26659,8 +26660,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1820432588}
   - component: {fileID: 1820432589}
-  - component: {fileID: 1820432590}
   - component: {fileID: 1820432591}
+  - component: {fileID: 1820432590}
   m_Layer: 0
   m_Name: gem (13)
   m_TagString: Untagged
@@ -26725,7 +26726,7 @@ Animator:
   m_GameObject: {fileID: 1820432587}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bf7609475a0754ca1ab355ffdaa3acd9, type: 2}
+  m_Controller: {fileID: 9100000, guid: c04d610c4bec8419ca7384ca595a55be, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -27074,8 +27075,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1874963873}
   - component: {fileID: 1874963874}
-  - component: {fileID: 1874963875}
   - component: {fileID: 1874963876}
+  - component: {fileID: 1874963875}
   m_Layer: 0
   m_Name: gem
   m_TagString: Untagged
@@ -27140,7 +27141,7 @@ Animator:
   m_GameObject: {fileID: 1874963872}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 86325dd61703b41b49ca17414d0f5342, type: 2}
+  m_Controller: {fileID: 9100000, guid: 239856f81657a430a8d4f873654f23cf, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -28506,8 +28507,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1996959505}
   - component: {fileID: 1996959506}
-  - component: {fileID: 1996959507}
   - component: {fileID: 1996959508}
+  - component: {fileID: 1996959507}
   m_Layer: 0
   m_Name: gem (1)
   m_TagString: Untagged
@@ -28572,7 +28573,7 @@ Animator:
   m_GameObject: {fileID: 1996959504}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5c59d99b46df2412a8bb0fe0a00cbf17, type: 2}
+  m_Controller: {fileID: 9100000, guid: 144d24179d8a24eafb3b9590c8fd40a7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -28913,8 +28914,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2012417990}
   - component: {fileID: 2012417991}
-  - component: {fileID: 2012417992}
   - component: {fileID: 2012417993}
+  - component: {fileID: 2012417992}
   m_Layer: 0
   m_Name: gem (9)
   m_TagString: Untagged
@@ -28979,7 +28980,7 @@ Animator:
   m_GameObject: {fileID: 2012417989}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6cc384a7b41ff40c49a0be0b21f5c5c7, type: 2}
+  m_Controller: {fileID: 9100000, guid: cc9c240a8e5fb48ef9a2828558a7c17f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -29083,8 +29084,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2014837863}
   - component: {fileID: 2014837864}
-  - component: {fileID: 2014837865}
   - component: {fileID: 2014837866}
+  - component: {fileID: 2014837865}
   m_Layer: 0
   m_Name: gem (7)
   m_TagString: Untagged
@@ -29149,7 +29150,7 @@ Animator:
   m_GameObject: {fileID: 2014837862}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 95fecff07091b46f49211b3d0b8eb2bc, type: 2}
+  m_Controller: {fileID: 9100000, guid: d0e42c3774f794447a120bc029a3f409, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
