@@ -39,10 +39,11 @@ public class playerLevel3 : MonoBehaviour {
 		}
 
 		//jumping
-		if(Input.GetButtonDown("Jump"))  {
+		//jumping
+		if(Input.GetButtonDown("Vertical"))  {
 			//if the player is on the ground
 			if (grounded) {
-				rb2d.AddForce (Vector2.up * 170f);
+				rb2d.AddForce(Vector2.up * 170f );
 			}
 		}
 	}

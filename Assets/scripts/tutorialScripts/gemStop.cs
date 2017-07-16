@@ -10,16 +10,11 @@ public class gemStop : MonoBehaviour {
 	void Start () {
 	}
 
-	public void onClose() {
 
-		gemPanel.SetActive (false);
-		Destroy (this.gameObject);
-		Time.timeScale = 1;
-	}
 
 	void OnTriggerEnter2D(Collider2D coll){
 
 		gemPanel.SetActive(true);
-		Time.timeScale = 0.0f;
+		Destroy (gemPanel, 2);
 	}
 }

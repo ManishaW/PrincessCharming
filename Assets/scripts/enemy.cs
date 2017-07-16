@@ -47,14 +47,16 @@ public class enemy : MonoBehaviour {
 
 			transform.position = Vector3.Lerp (myTrans.position+pos1, myTrans.position+pos2, Mathf.PingPong(Time.time*speed2, 1.0f));
 			Debug.Log (transform.position.x);
-			if (transform.position.x < 1.24) {
+
+			//flip
+			if (transform.position.x == 1.2) {
 				transform.localScale = new Vector3 (0.1274577f, 0.1274577f, 0.1274577f);
-			} else if (transform.position.x > 2.4) {
+			} else if (transform.position.x == 2.4) {
 				transform.localScale = new Vector3 (-0.1274577f, 0.1274577f, 0.1274577f);
 
-			
+			}
 			
 		}
 	}
 }
-}
+
