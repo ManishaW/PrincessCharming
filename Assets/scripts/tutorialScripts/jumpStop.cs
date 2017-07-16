@@ -15,6 +15,6 @@ public class jumpStop : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D coll){
 
 		jumpPanel.SetActive(true);
-		Destroy (jumpPanel, 2);
+		Destroy (jumpPanel, 1.4f);
 	}
 }
