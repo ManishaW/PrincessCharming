@@ -11,10 +11,11 @@ public class playerController : MonoBehaviour {
 	private float maxSpeed = 50f;
 	private float speed = 50f;
 	public GameObject failedCanvas;
+	public GameObject pauseCanvas;
 	public bool grounded;
 	private bool facingRight;
 	public float timeLeft=60f;
-	public bool hasKey;
+	private bool hasKey;
 	private Text counter;
 	private Text timer;
 	public static bool gamePaused= false;
@@ -56,6 +57,13 @@ public class playerController : MonoBehaviour {
 			if (grounded) {
 				rb2d.AddForce(Vector2.up * 170f );
 			}
+		}
+
+		//pause
+		if(Input.GetButtonDown("Pause"))  {
+			gamePaused = true;
+			Time.timeScale = 0;
+			pauseCanvas.SetActive (true);
 		}
 
 		if (!gamePaused) {
