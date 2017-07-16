@@ -68,8 +68,10 @@ public class playerController : MonoBehaviour {
 
 		if (!gamePaused) {
 			timeLeft -= Time.deltaTime;
+			Debug.Log ("Time"+timeLeft);
 			timer.text = timeLeft.ToString ("f0");
-			if (timeLeft < 0) {
+			if (timeLeft <= 0) {
+				Debug.Log ("Time"+timeLeft);
 				GameOver ();
 			}
 		}
