@@ -8,6 +8,7 @@ public class cameraBorderLevel3 : MonoBehaviour {
 	public float minPos = -0.86f; 
 	//far right
 	public float maxPos = 9.20f;
+	public AudioSource BGMLevel;
 
 	private Vector2 velocity;
 	public float smoothTimeX;
@@ -21,6 +22,9 @@ public class cameraBorderLevel3 : MonoBehaviour {
 	void Start () {
 
 		player = GameObject.FindGameObjectWithTag("Player");
+		BGMLevel = GetComponent<AudioSource> ();
+		BGMLevel.Play();
+	
 	}
 
 	void FixedUpdate () {
