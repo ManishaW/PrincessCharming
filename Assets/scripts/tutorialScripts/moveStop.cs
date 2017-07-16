@@ -15,6 +15,6 @@ public class moveStop : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D coll){
 
 		movePanel.SetActive(true);
-		Destroy (movePanel, 1.3f);
+		Destroy (movePanel, 3f);
 	}
 }

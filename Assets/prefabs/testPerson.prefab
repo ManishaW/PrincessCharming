@@ -67,7 +67,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1273422078912202}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 3.844, y: 6.364, z: -10}
+  m_LocalPosition: {x: -0.93, y: 0.58, z: -10}
   m_LocalScale: {x: 0.24, y: 0.24, z: 1}
   m_Children:
   - {fileID: 4165369625316058}
@@ -186,7 +186,7 @@ MonoBehaviour:
   failedCanvas: {fileID: 0}
   pauseCanvas: {fileID: 0}
   grounded: 1
-  timeLeft: 60
+  timeLeft: 20
 --- !u!212 &212218259950969416
 SpriteRenderer:
   m_ObjectHideFlags: 1
