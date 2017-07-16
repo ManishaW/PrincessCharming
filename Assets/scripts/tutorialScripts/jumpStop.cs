@@ -10,16 +10,11 @@ public class jumpStop : MonoBehaviour {
 	void Start () {
 	}
 
-	public void onClose() {
 
-		jumpPanel.SetActive (false);
-		Destroy (this.gameObject);
-		Time.timeScale = 1;
-	}
 
 	void OnTriggerEnter2D(Collider2D coll){
 
 		jumpPanel.SetActive(true);
-		Time.timeScale = 0.0f;
+		Destroy (jumpPanel, 2);
 	}
 }

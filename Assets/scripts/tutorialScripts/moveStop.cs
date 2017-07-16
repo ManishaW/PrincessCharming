@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class keyStop : MonoBehaviour {
+public class moveStop : MonoBehaviour {
 
-	public GameObject keyPanel;
+	public GameObject movePanel;
 
 	// Use this for initialization
 	void Start () {
@@ -14,7 +14,7 @@ public class keyStop : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D coll){
 
-		keyPanel.SetActive(true);
-		Destroy (keyPanel, 1.2f);
+		movePanel.SetActive(true);
+		Destroy (movePanel, 1.3f);
 	}
 }
