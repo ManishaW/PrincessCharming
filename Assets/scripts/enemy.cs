@@ -43,12 +43,12 @@ public class enemy : MonoBehaviour {
 			myVel.x = -myTrans.right.x * speed;
 			myBody.velocity = myVel;
 		} else {
-			Debug.Log (pos1 + " " + pos2);
+			//Debug.Log (pos1 + " " + pos2);
 
 			transform.position = Vector3.Lerp (myTrans.position+pos1, myTrans.position+pos2, Mathf.PingPong(Time.time*speed2, 1.0f));
-			Debug.Log (transform.position.x);
+			//Debug.Log (transform.position.x);
 
-			//flip
+			//flip (wronggggg)
 			if (transform.position.x == 1.2) {
 				transform.localScale = new Vector3 (0.1274577f, 0.1274577f, 0.1274577f);
 			} else if (transform.position.x == 2.4) {
