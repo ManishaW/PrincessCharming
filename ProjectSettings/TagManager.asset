@@ -11,6 +11,7 @@ TagManager:
   - egg
   - time
   - timer
+  - door
   layers:
   - Default
   - TransparentFX

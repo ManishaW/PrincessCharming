@@ -8,15 +8,20 @@ public class keyClass : MonoBehaviour {
 	private playerController player;
 	private GameObject keyObj;
 	public GameObject keyFoundCanvas;
+	public GameObject door;
+	private Animator doorOpening;
 	private float canvasTime = 3;
 
 	void Start() {
 		playerObj = GameObject.FindGameObjectWithTag("Player"); 
 		player = (playerController)playerObj.GetComponent (typeof(playerController));
 		keyObj = GameObject.FindGameObjectWithTag("key");
+		door = GameObject.FindGameObjectWithTag ("door");
+		doorOpening = door.GetComponent<Animator>();
 	}
 
 	void OnTriggerEnter2D(Collider2D coll){
+
 
 		//flash canvas on screen
 		keyFoundCanvas.SetActive (true);
@@ -25,5 +30,8 @@ public class keyClass : MonoBehaviour {
 		keyObj.SetActive(false);
 		//set that player has the key
 		player.setKey(true);
+
+		//open door
+	//	doorOpening.Play;
 	}
 }
