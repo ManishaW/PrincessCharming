@@ -24,13 +24,15 @@ public class newEnemy : MonoBehaviour {
 			this.GetComponent<BoxCollider2D> ().enabled = false;
 			//play animation of poof
 			//hatched = true;
-			Invoke ("hatchTheEgg", 5);
+			Invoke ("hatchTheEgg", 2);
 		}
 	}
 	void hatchTheEgg(){
 		Debug.Log ("hatch the egg method");
 		hatched = true;
 		spriteRenderer.sprite = dragon;
+		transform.localScale = new Vector3 (0.24f, 0.24f, 1);
+
 		Destroy (GetComponent<PolygonCollider2D> ());
 		this.gameObject.AddComponent<PolygonCollider2D>();
 	}
