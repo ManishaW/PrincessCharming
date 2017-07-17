@@ -5,7 +5,7 @@ using UnityEngine;
 public class cameraBorderTut : MonoBehaviour {
 
 	//far left
-	private float minPos = 0.192f; 
+	private float minPos = -2f; 
 	//far right
 	private float maxPos = 6f;
 
