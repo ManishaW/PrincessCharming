@@ -8,8 +8,7 @@ public class keyClass : MonoBehaviour {
 	private playerController player;
 	private GameObject keyObj;
 	public GameObject keyFoundCanvas;
-	public GameObject door;
-	//private Animation doorOpening;
+
 	private float canvasTime = 3;
 
 	void Start() {
@@ -17,7 +16,7 @@ public class keyClass : MonoBehaviour {
 		player = (playerController)playerObj.GetComponent (typeof(playerController));
 		keyObj = GameObject.FindGameObjectWithTag("key");
 
-	//	doorOpening = door.GetComponent<Animation>();
+
 
 	}
 
@@ -31,8 +30,7 @@ public class keyClass : MonoBehaviour {
 		//set that player has the key
 		player.setKey(true);
 
-		//open door
-		//doorOpening.Play();
+
 
 	}
 }
