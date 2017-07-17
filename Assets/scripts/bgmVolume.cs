@@ -19,8 +19,17 @@ public class bgmVolume : MonoBehaviour {
 		} else {
 			instance = this;
 		}
-		if(SceneManager.GetActiveScene().buildIndex != 0 || SceneManager.GetActiveScene().buildIndex != 1)
+	//	if (SceneManager.GetActiveScene ().buildIndex == 0 || SceneManager.GetActiveScene ().buildIndex == 1)
 			DontDestroyOnLoad (this.gameObject);
+	//	else
+	//		Destroy (this.gameObject);
+	}
+
+	void Update(){
+		if (SceneManager.GetActiveScene ().buildIndex == 0 || SceneManager.GetActiveScene ().buildIndex == 1)
+			DontDestroyOnLoad (this.gameObject);
+		else
+			Destroy (this.gameObject);
 	}
 	// Use this for initialization
 	void Start () {
