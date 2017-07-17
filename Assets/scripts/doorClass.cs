@@ -52,13 +52,13 @@ public class doorClass : MonoBehaviour {
 		Time.timeScale = 0.0f;
 
 
-			if (Application.loadedLevelName == "Level1") {
+			if (SceneManager.GetActiveScene().name == "Level1") {
 				LevelSelectScript.level1Complete = true;
 			}
-			if (Application.loadedLevelName == "Level3") {
+			if (SceneManager.GetActiveScene().name == "Level3") {
 				LevelSelectScript.level3Complete = true;
 			}
-			if (Application.loadedLevelName == "Game") {
+			if (SceneManager.GetActiveScene().name == "Game") {
 				LevelSelectScript.level2Complete = true;
 			}
 
@@ -66,6 +66,6 @@ public class doorClass : MonoBehaviour {
 	
 	}
 
-}
+
 
 
