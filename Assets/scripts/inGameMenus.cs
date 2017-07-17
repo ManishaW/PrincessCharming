@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class inGameMenus : MonoBehaviour {
 
@@ -25,6 +26,15 @@ public class inGameMenus : MonoBehaviour {
 		Debug.Log ("onPause!");
 		playerController.gamePaused = true;
 		pausePanel.SetActive (true);
+		Text gems = GameObject.FindWithTag("gemScore").GetComponent<Text>();
+		string gemCounting = GameObject.FindWithTag("gemCount").GetComponent<Text>().text;
+		gems.text = gemCounting;
+		Text eggs = GameObject.FindWithTag("eggScore").GetComponent<Text>();
+		string eggCounting = GameObject.FindWithTag("eggCount").GetComponent<Text>().text;
+		eggs.text = eggCounting;
+		Text timer = GameObject.FindWithTag("timeScore").GetComponent<Text>();
+		string timeCounting = GameObject.FindWithTag("timer").GetComponent<Text>().text;
+		timer.text = timeCounting;
 	}
 
 	public void onRestartPause(){
@@ -43,6 +53,7 @@ public class inGameMenus : MonoBehaviour {
 		Debug.Log ("onLevelSelectPause!");
 		SceneManager.LoadScene (1);
 		pausePanel.SetActive (false);
+		Time.timeScale = 1;
 	}
 
 	public void onRetryFail(){
@@ -55,6 +66,7 @@ public class inGameMenus : MonoBehaviour {
 		Debug.Log ("onLevelSelectFailed!");
 		SceneManager.LoadScene (1);
 		failPanel.SetActive (false);
+		Time.timeScale = 1;
 	}
 
 	public void onRetryPassed(){
@@ -67,7 +79,7 @@ public class inGameMenus : MonoBehaviour {
 		Debug.Log ("onContinuePassed");
 		int nextLevel = SceneManager.GetActiveScene ().buildIndex + 1;
 
-		if (nextLevel <= 4) {
+		if (nextLevel <= 5) {
 			SceneManager.LoadScene (nextLevel);
 			Time.timeScale = 1;
 		} else {
@@ -80,6 +92,9 @@ public class inGameMenus : MonoBehaviour {
 		//SceneManager.LoadScene (1);
 		Application.LoadLevel("Level Select Menu");
 		passPanel.SetActive (false);
+		Time.timeScale = 1;
 	}
+
+
 		
 }
