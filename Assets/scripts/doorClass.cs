@@ -1,7 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Linq;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class doorClass : MonoBehaviour {
 
@@ -19,6 +22,22 @@ public class doorClass : MonoBehaviour {
 			//Door animation?
 			//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 			levelPassedCanvas.SetActive(true);
+
+			//show scores
+			Text gems = GameObject.FindWithTag("gemScore").GetComponent<Text>();
+			string gemCounting = GameObject.FindWithTag("gemCount").GetComponent<Text>().text;
+			gems.text = gemCounting;
+			Text eggs = GameObject.FindWithTag("eggScore").GetComponent<Text>();
+			string eggCounting = GameObject.FindWithTag("eggCount").GetComponent<Text>().text;
+			eggs.text = eggCounting;
+			Text timer = GameObject.FindWithTag("timeScore").GetComponent<Text>();
+			string timeCounting = GameObject.FindWithTag("timer").GetComponent<Text>().text;
+			timer.text = timeCounting;
+
+			//calculate score
+			Text finalScore = GameObject.FindWithTag("totalScore").GetComponent<Text>();
+			finalScore.text = (Int32.Parse (gems.text) + Int32.Parse (eggs.text) + Int32.Parse (timer.text)).ToString();
+
 			Time.timeScale = 0.0f;
 
 
