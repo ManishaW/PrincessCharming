@@ -68,10 +68,8 @@ public class playerController : MonoBehaviour {
 
 		if (!gamePaused) {
 			timeLeft -= Time.deltaTime;
-			Debug.Log ("Time"+timeLeft);
 			timer.text = timeLeft.ToString ("f0");
 			if (timeLeft <= 0) {
-				Debug.Log ("Time"+timeLeft);
 				GameOver ();
 			}
 		}
@@ -80,7 +78,6 @@ public class playerController : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col){
 		if (col.gameObject.name.Contains ("gem")) {
 			Destroy (col.gameObject);
-			Debug.Log ("number");
 			int count = Int32.Parse(counter.text);
 			count++;
 			counter.text = count.ToString();
