@@ -79,7 +79,7 @@ public class inGameMenus : MonoBehaviour {
 		Debug.Log ("onContinuePassed");
 		int nextLevel = SceneManager.GetActiveScene ().buildIndex + 1;
 
-		if (nextLevel <= 4) {
+		if (nextLevel <= 5) {
 			SceneManager.LoadScene (nextLevel);
 			Time.timeScale = 1;
 		} else {
