@@ -21,7 +21,7 @@ public class doorClass : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D coll){
 		//Debug.Log (Application.loadedLevelName);
-		if (player.getKey()) {
+		if (player.getKey ()) {
 			//Door animation?
 			//open door
 			doorOpening.SetBool("hasKey", true);
@@ -52,17 +52,20 @@ public class doorClass : MonoBehaviour {
 		Time.timeScale = 0.0f;
 
 
-		if (Application.loadedLevelName == "Level1") {
-			LevelSelectScript.level1Complete = true;
-		}
-		if (Application.loadedLevelName == "Level3") {
-			LevelSelectScript.level3Complete = true;
-		}
-		if (Application.loadedLevelName == "Game") {
-			LevelSelectScript.level2Complete = true;
-
+			if (Application.loadedLevelName == "Level1") {
+				LevelSelectScript.level1Complete = true;
+			}
+			if (Application.loadedLevelName == "Level3") {
+				LevelSelectScript.level3Complete = true;
+			}
+			if (Application.loadedLevelName == "Game") {
+				LevelSelectScript.level2Complete = true;
+			}
 
 		}
 	
 	}
+
 }
+
+
