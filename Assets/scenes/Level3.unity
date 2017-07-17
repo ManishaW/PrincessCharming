@@ -5640,6 +5640,7 @@ MonoBehaviour:
   timeLeft: 60
   run: {fileID: 21300000, guid: 0cfd46bf89948c443962eaeb127a68b4, type: 3}
   idle: {fileID: 21300000, guid: 7f52b53a3752b474b8c5d19e090e7ed5, type: 3}
+  attack: {fileID: 21300000, guid: c5989646650050a47a2c9c4f1b39327f, type: 3}
 --- !u!212 &426373397
 SpriteRenderer:
   m_ObjectHideFlags: 0
