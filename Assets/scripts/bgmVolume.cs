@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class bgmVolume : MonoBehaviour {
 
@@ -10,6 +11,7 @@ public class bgmVolume : MonoBehaviour {
 	public static bgmVolume Instance(){
 		return instance;
 	}
+
 	void Awake(){
 		if (instance != null && instance != this) {
 			Destroy (this.gameObject);
@@ -17,12 +19,12 @@ public class bgmVolume : MonoBehaviour {
 		} else {
 			instance = this;
 		}
-		DontDestroyOnLoad (this.gameObject);
+		if(SceneManager.GetActiveScene().buildIndex != 0 || SceneManager.GetActiveScene().buildIndex != 1)
+			DontDestroyOnLoad (this.gameObject);
 	}
 	// Use this for initialization
 	void Start () {
 		audio = GetComponent<AudioSource> ();
-		DontDestroyOnLoad (gameObject);
 	}
 	
 	public void SetVolume(float value){
