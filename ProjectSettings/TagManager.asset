@@ -17,6 +17,7 @@ TagManager:
   - timeScore
   - totalScore
   - eggCount
+  - selectMusic
   layers:
   - Default
   - TransparentFX
