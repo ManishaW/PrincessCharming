@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 114899289398448724}
   - component: {fileID: 50959532243887240}
   - component: {fileID: 60452153487755770}
+  - component: {fileID: 95776300286544614}
   m_Layer: 5
   m_Name: testPerson
   m_TagString: Player
@@ -67,7 +68,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1273422078912202}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.93, y: 0.58, z: -10}
+  m_LocalPosition: {x: -2.29, y: -0.22, z: -10}
   m_LocalScale: {x: 0.24, y: 0.24, z: 1}
   m_Children:
   - {fileID: 4165369625316058}
@@ -161,6 +162,23 @@ BoxCollider2D:
   m_Offset: {x: -0.13359687, y: -0.47216222}
   serializedVersion: 2
   m_Size: {x: 0.9656445, y: 0.16868277}
+--- !u!95 &95776300286544614
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1273422078912202}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6337037ece86d2a4e80503414cbadb52, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114385039502769082
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -186,7 +204,7 @@ MonoBehaviour:
   failedCanvas: {fileID: 0}
   pauseCanvas: {fileID: 0}
   grounded: 1
-  timeLeft: 20
+  timeLeft: 60
 --- !u!212 &212218259950969416
 SpriteRenderer:
   m_ObjectHideFlags: 1
