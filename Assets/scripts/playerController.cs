@@ -86,7 +86,7 @@ public class playerController : MonoBehaviour {
 		if (col.gameObject.name.Contains ("gem")) {
 			Destroy (col.gameObject);
 			int count = Int32.Parse(counter.text);
-			count++;
+			count+=3;
 			counter.text = count.ToString();
 
 		}

@@ -63,9 +63,8 @@ public class doorClass : MonoBehaviour {
 			}
 
 		}
-	
-	}
 
+}
 
 
 

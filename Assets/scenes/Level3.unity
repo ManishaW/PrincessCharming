@@ -5673,8 +5673,6 @@ MonoBehaviour:
     type: 2}
   grounded: 1
   timeLeft: 60
-  run: {fileID: 21300000, guid: 0cfd46bf89948c443962eaeb127a68b4, type: 3}
-  idle: {fileID: 21300000, guid: 7f52b53a3752b474b8c5d19e090e7ed5, type: 3}
 --- !u!212 &426373397
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19486,6 +19484,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e1b24cffa47b24f25b47927505523952, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1408751728 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114832679149102620, guid: e1b24cffa47b24f25b47927505523952,
+    type: 2}
+  m_PrefabInternal: {fileID: 1408751727}
+  m_Script: {fileID: 11500000, guid: e8c56ea8197464b97960741df9adc584, type: 3}
 --- !u!1 &1412078610
 GameObject:
   m_ObjectHideFlags: 0
@@ -29564,6 +29568,11 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114689373427006720, guid: 8330d13bfe734430f93865196f3b3d21,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1408751728}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8330d13bfe734430f93865196f3b3d21, type: 2}
   m_IsPrefabParent: 0
