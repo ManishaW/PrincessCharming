@@ -17602,7 +17602,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keyFoundCanvas: {fileID: 0}
-  door: {fileID: 1405105669402442}
 --- !u!114 &114878413669927256
 MonoBehaviour:
   m_ObjectHideFlags: 1
