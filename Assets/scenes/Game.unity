@@ -13196,7 +13196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1008658838}
   - component: {fileID: 1008658840}
-  - component: {fileID: 1008658839}
+  - component: {fileID: 1008658841}
   m_Layer: 0
   m_Name: Door
   m_TagString: door
@@ -13222,23 +13222,6 @@ RectTransform:
   m_AnchoredPosition: {x: 2.34, y: -11.965}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &1008658839
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1008658837}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: af23fc013bfd7425da56e8f4b6d05b9d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!212 &1008658840
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13274,6 +13257,20 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!111 &1008658841
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1008658837}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 85c5e1dacf3904b4ea1e9606a023bca1, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1009282837 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1593236819957274, guid: e1b24cffa47b24f25b47927505523952,
@@ -16280,7 +16277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keyFoundCanvas: {fileID: 1932014976}
-  door: {fileID: 0}
+  door: {fileID: 1008658837}
 --- !u!95 &1246878805
 Animator:
   serializedVersion: 3
@@ -20142,6 +20139,11 @@ Prefab:
         type: 2}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[56].y
       value: -0.7815262
+      objectReference: {fileID: 0}
+    - target: {fileID: 114899289398448724, guid: 0a1b7610dd34d934481aee48d0e0cfd7,
+        type: 2}
+      propertyPath: timeLeft
+      value: 61
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0a1b7610dd34d934481aee48d0e0cfd7, type: 2}
