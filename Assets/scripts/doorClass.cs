@@ -22,7 +22,7 @@ public class doorClass : MonoBehaviour {
 			Time.timeScale = 0.0f;
 
 			if (SceneManager.GetActiveScene ().buildIndex == 4) {
-				LevelSelectScript.level4Complete = true;
+				//LevelSelectScript.level4Complete = true;
 
 				if (Application.loadedLevelName == "Level1") {
 					LevelSelectScript.level1Complete = true;
