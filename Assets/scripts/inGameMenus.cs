@@ -66,7 +66,8 @@ public class inGameMenus : MonoBehaviour {
 	public void onContinuePassed(){
 		Debug.Log ("onContinuePassed");
 		int nextLevel = SceneManager.GetActiveScene ().buildIndex + 1;
-		if (nextLevel <= SceneManager.sceneCount) {
+
+		if (nextLevel <= 4) {
 			SceneManager.LoadScene (nextLevel);
 		} else {
 			SceneManager.LoadScene (1);
