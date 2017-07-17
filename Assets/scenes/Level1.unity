@@ -904,7 +904,97 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 114237398170725772, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+    - target: {fileID: 95899073512078494, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 47e61a8fd38c2f947880ba160286292f, type: 2}
+    - target: {fileID: 95959025167280354, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3a521bf038f413d4587ce327af3f4e17, type: 2}
+    - target: {fileID: 95010386783140350, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b2c2455dcbd8f3f499553741a0462fe1, type: 2}
+    - target: {fileID: 95101970849243352, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 96ad40dcbebf0c0439d815a820983a67, type: 2}
+    - target: {fileID: 95314612140848890, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e4476cb98a1ce874aa86b2b64eccfb21, type: 2}
+    - target: {fileID: 95017227546759880, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3e47277e6049db44abe3a915597c3516, type: 2}
+    - target: {fileID: 95801946674238876, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 689cc571d1780cb4ab69eb9396c354d4, type: 2}
+    - target: {fileID: 95673806956958534, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c98a0e6901f899c49b0f881440ffc97b, type: 2}
+    - target: {fileID: 95890757300630286, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c1d928157fb5f184593ad31f7a42b1d2, type: 2}
+    - target: {fileID: 95853147816162156, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 59b03ca7058b14c4a9dc799ca98da0aa, type: 2}
+    - target: {fileID: 95046698765632326, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ffdd4940924999846a3d21387c089b8a, type: 2}
+    - target: {fileID: 95733581050617764, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8e62cc2478473594fa5b46aa1ccb0b2f, type: 2}
+    - target: {fileID: 95675346127152036, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: be711fca571b0f3419609eb94138112f, type: 2}
+    - target: {fileID: 95437568065102730, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: efb75e060632c354e9155334641443f5, type: 2}
+    - target: {fileID: 95891080221509232, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 66f6d022304e7fd49a9ebb5b50c83908, type: 2}
+    - target: {fileID: 95694378256350762, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 381ca54065f2b7f40803457618ee278c, type: 2}
+    - target: {fileID: 114706413784745274, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+        type: 2}
+      propertyPath: failedCanvas
+      value: 
+      objectReference: {fileID: 1401278011}
+    - target: {fileID: 114267105265261576, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+        type: 2}
+      propertyPath: failedCanvas
+      value: 
+      objectReference: {fileID: 1401278011}
+    - target: {fileID: 114087295561503206, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
         type: 2}
       propertyPath: levelPassedCanvas
       value: 
@@ -914,21 +1004,11 @@ Prefab:
       propertyPath: keyFoundCanvas
       value: 
       objectReference: {fileID: 258308208}
-    - target: {fileID: 114087295561503206, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
+    - target: {fileID: 114237398170725772, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
         type: 2}
       propertyPath: levelPassedCanvas
       value: 
       objectReference: {fileID: 1443636537}
-    - target: {fileID: 114267105265261576, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
-        type: 2}
-      propertyPath: failedCanvas
-      value: 
-      objectReference: {fileID: 1401278011}
-    - target: {fileID: 114706413784745274, guid: eb3b7e21ad4b8db4cbb1d66673dde408,
-        type: 2}
-      propertyPath: failedCanvas
-      value: 
-      objectReference: {fileID: 1401278011}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eb3b7e21ad4b8db4cbb1d66673dde408, type: 2}
   m_IsPrefabParent: 0
@@ -3096,15 +3176,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1273422078912202, guid: 0a1b7610dd34d934481aee48d0e0cfd7, type: 2}
-      propertyPath: m_Name
-      value: princess
-      objectReference: {fileID: 0}
-    - target: {fileID: 114899289398448724, guid: 0a1b7610dd34d934481aee48d0e0cfd7,
-        type: 2}
-      propertyPath: pauseCanvas
-      value: 
-      objectReference: {fileID: 1587625580}
     - target: {fileID: 114899289398448724, guid: 0a1b7610dd34d934481aee48d0e0cfd7,
         type: 2}
       propertyPath: failedCanvas
@@ -3112,8 +3183,12 @@ Prefab:
       objectReference: {fileID: 1401278011}
     - target: {fileID: 114899289398448724, guid: 0a1b7610dd34d934481aee48d0e0cfd7,
         type: 2}
-      propertyPath: timeLeft
-      value: 60
+      propertyPath: pauseCanvas
+      value: 
+      objectReference: {fileID: 1587625580}
+    - target: {fileID: 1273422078912202, guid: 0a1b7610dd34d934481aee48d0e0cfd7, type: 2}
+      propertyPath: m_Name
+      value: princess
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0a1b7610dd34d934481aee48d0e0cfd7, type: 2}
