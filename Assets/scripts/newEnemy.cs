@@ -16,7 +16,7 @@ public class newEnemy : MonoBehaviour {
 		xStartPosition = transform.position.x;
 		flip = true;
 		spriteRenderer = GetComponent<SpriteRenderer>(); 
-		transform.localScale = new Vector3 (0.1f, 0.1f, 1);
+		transform.localScale = new Vector3 (0.05f, 0.05f, 1);
 
 	}
 	void OnTriggerEnter2D(Collider2D coll){
@@ -29,12 +29,13 @@ public class newEnemy : MonoBehaviour {
 	}
 	void hatchTheEgg(){
 		Debug.Log ("hatch the egg method");
-		hatched = true;
 		spriteRenderer.sprite = dragon;
 		transform.localScale = new Vector3 (0.24f, 0.24f, 1);
 
 		Destroy (GetComponent<PolygonCollider2D> ());
 		this.gameObject.AddComponent<PolygonCollider2D>();
+		hatched = true;
+
 	}
 
 	void Update () {
@@ -46,6 +47,8 @@ public class newEnemy : MonoBehaviour {
 				theScale.x *= -1;
 				transform.localScale = theScale;
 
+				Destroy (GetComponent<PolygonCollider2D> ());
+				this.gameObject.AddComponent<PolygonCollider2D>();
 			}
 			transform.position = new Vector2 (transform.position.x + speed * Time.deltaTime, transform.position.y);
 		} else {
