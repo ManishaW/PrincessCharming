@@ -14,12 +14,16 @@ public class doorClass : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D coll){
-
+		Debug.Log (Application.loadedLevelName);
 		if (player.getKey()) {
 			//Door animation?
 			//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 			levelPassedCanvas.SetActive(true);
 			Time.timeScale = 0.0f;
+
+			if (Application.loadedLevelName == "Level3") {
+				LevelSelectScript.level4Complete = true;
+			}
 		}
 	}
 }
