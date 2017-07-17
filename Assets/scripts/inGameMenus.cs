@@ -76,7 +76,8 @@ public class inGameMenus : MonoBehaviour {
 	}
 	public void onLevelSelectPass(){
 		Debug.Log ("onLevelSelectPass!");
-		SceneManager.LoadScene (1);
+		//SceneManager.LoadScene (1);
+		Application.LoadLevel("Level Select Menu");
 		passPanel.SetActive (false);
 	}
 		

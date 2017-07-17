@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LevelSelectScript : MonoBehaviour {
+	public static bool level1Complete;
 	public static bool level2Complete;
 	public static bool level3Complete;
-	public static bool level4Complete;
 	private GameObject lock2;
 	public Button level2;
 	private GameObject lock3;
@@ -27,15 +27,15 @@ public class LevelSelectScript : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (level2Complete){
+		if (level1Complete){
 			Destroy(lock2);
 			level2.interactable = true;
 		}
-		if (level3Complete){
+		if (level2Complete){
 			Destroy(lock3);
 			level3.interactable = true;
 		}
-		if (level4Complete){
+		if (level3Complete){
 			Destroy(lock3);
 			level4.interactable = true;
 		}

@@ -19,7 +19,11 @@ public class playerController : MonoBehaviour {
 	private Text counter;
 	private Text timer;
 	public static bool gamePaused= false;
-
+	public Sprite run;
+	public Sprite idle;
+//	public Sprite attack;
+	private SpriteRenderer spriteRenderer; 
+	private Animator myAnimation;
 
 		
 
@@ -32,30 +36,47 @@ public class playerController : MonoBehaviour {
 		counter = GameObject.FindWithTag("gemCount").GetComponent<Text>();
 		timer = GameObject.FindWithTag("timer").GetComponent<Text>();
 		timer.text = timeLeft.ToString("f0");
+		myAnimation = GetComponent<Animator> ();
+		spriteRenderer = GetComponent<SpriteRenderer> ();
 	}
 
 	// Update is called once per frame
 	void Update () {
 
+		myAnimation.SetFloat ("speed", Mathf.Abs (rb2d.velocity.x));
 		//flip sprite
 		//moving left
-		if(Input.GetAxis("Horizontal") < -0.1f) {
+		if (Input.GetAxis ("Horizontal") < -0.1f) {
 			facingRight = false;
-			transform.localScale = new Vector3(-0.24f, 0.24f, 1);
+			spriteRenderer.sprite = run;
+			transform.localScale = new Vector3 (-0.22f, 0.22f, 1);
 		}
 
 		//moving right
-		if (Input.GetAxis("Horizontal") > 0.1f)
-		{
+		else if (Input.GetAxis ("Horizontal") > 0.1f) {
 			facingRight = true;
-			transform.localScale = new Vector3(0.24f, 0.24f, 1);
+			spriteRenderer.sprite = run;
+			transform.localScale = new Vector3 (0.22f, 0.22f, 1);
 		}
 
 		//jumping
-		if(Input.GetButtonDown("Vertical"))  {
+
+		else {
+			if (facingRight) {
+				transform.localScale = new Vector3 (0.24f, 0.24f, 1);
+				spriteRenderer.sprite = idle;
+
+			} else {
+				transform.localScale = new Vector3 (-0.24f, 0.24f, 1);
+				spriteRenderer.sprite = idle;
+			}
+
+		}
+		if (Input.GetButtonDown ("Vertical")) {
 			//if the player is on the ground
 			if (grounded) {
-				rb2d.AddForce(Vector2.up * 170f );
+				rb2d.AddForce (Vector2.up * 170f);
+				//spriteRenderer.sprite = run;
 			}
 		}
 
