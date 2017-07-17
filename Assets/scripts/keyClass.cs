@@ -9,15 +9,14 @@ public class keyClass : MonoBehaviour {
 	private GameObject keyObj;
 	public GameObject keyFoundCanvas;
 	public GameObject door;
-	private Animation doorOpening;
+	//private Animation doorOpening;
 	private float canvasTime = 3;
 
 	void Start() {
 		playerObj = GameObject.FindGameObjectWithTag("Player"); 
 		player = (playerController)playerObj.GetComponent (typeof(playerController));
 		keyObj = GameObject.FindGameObjectWithTag("key");
-		door = GameObject.FindGameObjectWithTag ("door");
-		doorOpening = door.GetComponent<Animation>();
+	//	doorOpening = door.GetComponent<Animation>();
 	}
 
 	void OnTriggerEnter2D(Collider2D coll){
@@ -32,6 +31,6 @@ public class keyClass : MonoBehaviour {
 		player.setKey(true);
 
 		//open door
-		doorOpening.Play();
+		//doorOpening.Play();
 	}
 }
