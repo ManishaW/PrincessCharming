@@ -7,6 +7,7 @@ public class bgmVolume : MonoBehaviour {
 
 	AudioSource audio;
 	private static bgmVolume instance = null;
+	GameObject levelSelMusic;
 
 	public static bgmVolume Instance(){
 		return instance;
@@ -26,8 +27,14 @@ public class bgmVolume : MonoBehaviour {
 	}
 
 	void Update(){
-		if (SceneManager.GetActiveScene ().buildIndex == 0 || SceneManager.GetActiveScene ().buildIndex == 1)
+		if (SceneManager.GetActiveScene ().buildIndex == 0 || SceneManager.GetActiveScene ().buildIndex == 1) {
 			DontDestroyOnLoad (this.gameObject);
+
+			levelSelMusic = GameObject.FindGameObjectWithTag ("selectMusic");
+			if (levelSelMusic != null) {
+				levelSelMusic.SetActive (false);
+			}
+		}
 		else
 			Destroy (this.gameObject);
 	}
