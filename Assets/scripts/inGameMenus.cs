@@ -25,8 +25,10 @@ public class inGameMenus : MonoBehaviour {
 	public void onPause() {
 		Debug.Log ("onPause!");
 		playerController.gamePaused = true;
-		//GameObject.FindWithTag ("gemScore").GetComponent<Text>().text = GameObject.FindWithTag ("gemCount").GetComponent<Text>().text;
 		pausePanel.SetActive (true);
+		Text gems = GameObject.FindWithTag("gemScore").GetComponent<Text>();
+		string gemCounting = GameObject.FindWithTag("gemCount").GetComponent<Text>().text;
+		gems.text = gemCounting;
 	}
 
 	public void onRestartPause(){

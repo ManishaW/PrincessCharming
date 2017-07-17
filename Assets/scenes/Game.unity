@@ -20213,6 +20213,23 @@ Prefab:
       propertyPath: timeLeft
       value: 61
       objectReference: {fileID: 0}
+    - target: {fileID: 114899289398448724, guid: 0a1b7610dd34d934481aee48d0e0cfd7,
+        type: 2}
+      propertyPath: run
+      value: 
+      objectReference: {fileID: 21300000, guid: 0cfd46bf89948c443962eaeb127a68b4,
+        type: 3}
+    - target: {fileID: 114899289398448724, guid: 0a1b7610dd34d934481aee48d0e0cfd7,
+        type: 2}
+      propertyPath: idle
+      value: 
+      objectReference: {fileID: 21300000, guid: 7f52b53a3752b474b8c5d19e090e7ed5,
+        type: 3}
+    - target: {fileID: 95776300286544614, guid: 0a1b7610dd34d934481aee48d0e0cfd7,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0a1b7610dd34d934481aee48d0e0cfd7, type: 2}
   m_IsPrefabParent: 0
