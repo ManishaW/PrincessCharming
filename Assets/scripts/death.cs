@@ -17,7 +17,7 @@ public class death : MonoBehaviour {
 
 			failedCanvas.SetActive(true);
 			GameObject.FindWithTag("ouch").GetComponent<Text>().text="Ouch that hurt!";
-			GameObject.FindWithTag ("time").SetActive (false);
+		GameObject.FindWithTag ("time").GetComponent <Image> ().enabled = false;
 			Time.timeScale = 0.0f;
 	}
 

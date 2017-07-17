@@ -59,7 +59,7 @@ public class inGameMenus : MonoBehaviour {
 
 	public void onRetryPassed(){
 		Debug.Log ("onRetryPassed");
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		SceneManager.LoadScene(SceneManager.GetActiveScene ().buildIndex);
 		Time.timeScale = 1;
 		passPanel.SetActive (false);
 	}
@@ -69,6 +69,7 @@ public class inGameMenus : MonoBehaviour {
 
 		if (nextLevel <= 4) {
 			SceneManager.LoadScene (nextLevel);
+			Time.timeScale = 1;
 		} else {
 			SceneManager.LoadScene (1);
 		}

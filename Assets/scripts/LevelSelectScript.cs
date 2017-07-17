@@ -41,19 +41,19 @@ public class LevelSelectScript : MonoBehaviour {
 		}
 	}
 	public void level1OnClick(){
-		Application.LoadLevel ("Level1");
+		SceneManager.LoadScene (2);
 	}
 	public void tutorial(){
-		Application.LoadLevel ("Tutorial");
+		SceneManager.LoadScene (5);
 	}
 	public void level2OnClick(){
-		Application.LoadLevel ("Game");
+		SceneManager.LoadScene (3);
 	}
 	public void level3OnClick(){
-		Application.LoadLevel ("Level3");
+		SceneManager.LoadScene (4);
 	}
 	public void backToMainMenuOnClick(){
-		SceneManager.LoadScene("MainMenu");
+		SceneManager.LoadScene(0);
 
 
 }

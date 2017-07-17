@@ -112,7 +112,7 @@ public class playerController : MonoBehaviour {
 	void GameOver(){
 		failedCanvas.SetActive(true);
 		GameObject.FindWithTag ("ouch").GetComponent<Text> ().text = "Time's Up!";
-		GameObject.FindWithTag ("egg").SetActive (false);
+		GameObject.FindWithTag ("egg").GetComponent<Image> ().enabled = false;
 		Time.timeScale = 0.0f;
 	}
 }
