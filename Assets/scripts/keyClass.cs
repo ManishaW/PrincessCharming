@@ -16,11 +16,12 @@ public class keyClass : MonoBehaviour {
 		playerObj = GameObject.FindGameObjectWithTag("Player"); 
 		player = (playerController)playerObj.GetComponent (typeof(playerController));
 		keyObj = GameObject.FindGameObjectWithTag("key");
+
 	//	doorOpening = door.GetComponent<Animation>();
+
 	}
 
 	void OnTriggerEnter2D(Collider2D coll){
-
 
 		//flash canvas on screen
 		keyFoundCanvas.SetActive (true);
@@ -32,5 +33,6 @@ public class keyClass : MonoBehaviour {
 
 		//open door
 		//doorOpening.Play();
+
 	}
 }
