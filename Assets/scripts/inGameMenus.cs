@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class inGameMenus : MonoBehaviour {
 
@@ -24,6 +25,7 @@ public class inGameMenus : MonoBehaviour {
 	public void onPause() {
 		Debug.Log ("onPause!");
 		playerController.gamePaused = true;
+		//GameObject.FindWithTag ("gemScore").GetComponent<Text>().text = GameObject.FindWithTag ("gemCount").GetComponent<Text>().text;
 		pausePanel.SetActive (true);
 	}
 

@@ -21,10 +21,9 @@ public class doorClass : MonoBehaviour {
 			levelPassedCanvas.SetActive(true);
 			Time.timeScale = 0.0f;
 
-<<<<<<< HEAD
-			if (SceneManager.GetActiveScene().buildIndex == 4) {
-				LevelSelectScript.level4Complete = true;
-=======
+if (SceneManager.GetActiveScene().buildIndex == 4) {
+				//LevelSelectScript.level4Complete = true;
+
 			if (Application.loadedLevelName == "Level1") {
 				LevelSelectScript.level1Complete = true;
 			}
@@ -33,8 +32,8 @@ public class doorClass : MonoBehaviour {
 			}
 			if (Application.loadedLevelName == "Game") {
 				LevelSelectScript.level2Complete = true;
->>>>>>> 80966e97b10d1b84cd9f4d203f33e57d7f5c35a6
-			}
+		}
 		}
 	}
+}
 }

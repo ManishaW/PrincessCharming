@@ -7943,6 +7943,22 @@ Prefab:
       propertyPath: m_AnchoredPosition.y
       value: 227
       objectReference: {fileID: 0}
+    - target: {fileID: 1209963407734962, guid: 8330d13bfe734430f93865196f3b3d21, type: 2}
+      propertyPath: m_Name
+      value: gemCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 1988286652357940, guid: 8330d13bfe734430f93865196f3b3d21, type: 2}
+      propertyPath: m_Name
+      value: timeCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 1301222264259234, guid: 8330d13bfe734430f93865196f3b3d21, type: 2}
+      propertyPath: m_Name
+      value: eggCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 1301222264259234, guid: 8330d13bfe734430f93865196f3b3d21, type: 2}
+      propertyPath: m_TagString
+      value: eggCount
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8330d13bfe734430f93865196f3b3d21, type: 2}
   m_IsPrefabParent: 0
