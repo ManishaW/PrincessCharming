@@ -23,7 +23,11 @@ public class cameraBorderLevel3 : MonoBehaviour {
 
 		player = GameObject.FindGameObjectWithTag("Player");
 		BGMLevel = GetComponent<AudioSource> ();
-		BGMLevel.Play();
+
+		GameObject settings = GameObject.FindGameObjectWithTag("musicVol"); 
+		musicSett = (musicSettings)settings.GetComponent (typeof(musicSettings));
+
+		BGMLevel.volume = musicSett.GetMusicVolume ();
 	
 	}
 

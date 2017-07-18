@@ -7,8 +7,9 @@ public class cameraBorderTut : MonoBehaviour {
 	//far left
 	private float minPos = -2f; 
 	//far right
-	private float maxPos = 6f;
-
+	private float maxPos = 4.075f;
+	AudioSource audio;
+	musicSettings musicSett;
 	private Vector2 velocity;
 	public float smoothTimeX;
 	public float smoothTimeY;
@@ -19,6 +20,11 @@ public class cameraBorderTut : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		audio = GetComponent<AudioSource> ();
+		GameObject settings = GameObject.FindGameObjectWithTag("musicVol"); 
+		musicSett = (musicSettings)settings.GetComponent (typeof(musicSettings));
+
+		audio.volume = musicSett.GetMusicVolume ();
 
 		player = GameObject.FindGameObjectWithTag("Player");
 	}

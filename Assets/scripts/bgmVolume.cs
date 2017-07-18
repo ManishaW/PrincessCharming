@@ -6,24 +6,26 @@ using UnityEngine.SceneManagement;
 public class bgmVolume : MonoBehaviour {
 
 	AudioSource audio;
-	private static bgmVolume instance = null;
 	GameObject levelSelMusic;
+	musicSettings musicSett;
+	private static bgmVolume instance = null;
 
 	public static bgmVolume Instance(){
 		return instance;
 	}
 
 	void Awake(){
+
+		GameObject settings = GameObject.FindGameObjectWithTag("musicVol"); 
+		musicSett = (musicSettings)settings.GetComponent (typeof(musicSettings));
+
 		if (instance != null && instance != this) {
 			Destroy (this.gameObject);
 			return;
 		} else {
 			instance = this;
 		}
-	//	if (SceneManager.GetActiveScene ().buildIndex == 0 || SceneManager.GetActiveScene ().buildIndex == 1)
 			DontDestroyOnLoad (this.gameObject);
-	//	else
-	//		Destroy (this.gameObject);
 	}
 
 	void Update(){
@@ -45,6 +47,7 @@ public class bgmVolume : MonoBehaviour {
 	
 	public void SetVolume(float value){
 		audio.volume = value;
+		musicSett.SetMusicVol = value;
 	}
 		
 }

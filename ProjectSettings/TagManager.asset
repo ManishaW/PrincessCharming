@@ -18,6 +18,7 @@ TagManager:
   - totalScore
   - eggCount
   - selectMusic
+  - musicVol
   layers:
   - Default
   - TransparentFX
