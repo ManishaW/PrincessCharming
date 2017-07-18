@@ -9,7 +9,7 @@ public class cameraBorderLevel3 : MonoBehaviour {
 	//far right
 	public float maxPos = 9.20f;
 	public AudioSource BGMLevel;
-
+	musicSettings musicSett;
 	private Vector2 velocity;
 	public float smoothTimeX;
 	public float smoothTimeY;
@@ -23,7 +23,11 @@ public class cameraBorderLevel3 : MonoBehaviour {
 
 		player = GameObject.FindGameObjectWithTag("Player");
 		BGMLevel = GetComponent<AudioSource> ();
-		BGMLevel.Play();
+
+		GameObject settings = GameObject.FindGameObjectWithTag("musicVol"); 
+		musicSett = (musicSettings)settings.GetComponent (typeof(musicSettings));
+
+		BGMLevel.volume = musicSett.GetMusicVolume ();
 	
 	}
 

@@ -91,6 +91,7 @@ NavMeshSettings:
     cellSize: 0.16666667
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &61851909 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1593236819957274, guid: e1b24cffa47b24f25b47927505523952,
@@ -1123,3 +1124,5 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8330d13bfe734430f93865196f3b3d21, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> 64c49a5fc46985d4f6b4fd9d732f9a828bc10796

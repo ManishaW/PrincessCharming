@@ -48,6 +48,7 @@ public class inGameMenus : MonoBehaviour {
 		Debug.Log ("onContinuePause!");
 		pausePanel.SetActive (false);
 		playerController.gamePaused = false;
+		Time.timeScale = 1;
 	}
 	public void onLevelSelectPause(){
 		Debug.Log ("onLevelSelectPause!");
@@ -96,5 +97,9 @@ public class inGameMenus : MonoBehaviour {
 	}
 
 
+	public void skip(){
+	
+		SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1);
+	}
 		
 }
