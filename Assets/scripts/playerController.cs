@@ -40,7 +40,7 @@ public class playerController : MonoBehaviour {
 	void Update () {
 
 		myAnimation.SetFloat ("speed", Mathf.Abs (rb2d.velocity.x));
-		myAnimation.SetBool ("attack", princessAttack);
+
 		//flip sprite
 		//moving left
 		if (Input.GetAxis ("Horizontal") < -0.1f) {
@@ -62,8 +62,8 @@ public class playerController : MonoBehaviour {
 
 		//attacking
 		if (Input.GetButtonDown ("Attack")) {
-			princessAttack = true;
-			StartCoroutine (Wait ());
+
+			myAnimation.SetTrigger("canAttack");
 		}
 
 		//pause
@@ -90,10 +90,6 @@ public class playerController : MonoBehaviour {
 			counter.text = count.ToString();
 
 		}
-	}
-	IEnumerator Wait(){
-		yield return new WaitForSeconds (0.8f);
-		princessAttack = false;
 	}
 
 	void FixedUpdate(){
