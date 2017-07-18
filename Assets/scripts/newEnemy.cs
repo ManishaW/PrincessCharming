@@ -42,7 +42,8 @@ public class newEnemy : MonoBehaviour {
 	void Update () {
 		//to add: everyso often breathe fire
 		if (this.hatched && myParent!=null) {
-			
+			Destroy (GetComponent<PolygonCollider2D> ());
+			this.gameObject.AddComponent<PolygonCollider2D>();
 			if ((speed < 0 && myParent.transform.position.x < xStartPosition) || (speed > 0 && myParent.transform.position.x > xStartPosition + distance)) {
 				
 				speed *= -1;
@@ -51,8 +52,7 @@ public class newEnemy : MonoBehaviour {
 				
 				theScale.x *= -1;
 				myParent.transform.localScale = theScale;
-				Destroy (GetComponent<PolygonCollider2D> ());
-				this.gameObject.AddComponent<PolygonCollider2D>();
+
 			}
 
 			myParent.transform.position = new Vector2 (myParent.transform.position.x + speed * Time.deltaTime, myParent.transform.position.y);
