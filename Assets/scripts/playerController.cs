@@ -17,6 +17,7 @@ public class playerController : MonoBehaviour {
 	public float timeLeft=60f;
 	private bool hasKey;
 	private Text counter;
+	private Text attackCounter;
 	private Text timer;
 	public static bool gamePaused= false;
 	public bool isAttacking;
@@ -31,6 +32,7 @@ public class playerController : MonoBehaviour {
 		rb2d = gameObject.GetComponent<Rigidbody2D>();
 		facingRight = true;
 		counter = GameObject.FindWithTag("gemCount").GetComponent<Text>();
+		attackCounter = GameObject.FindWithTag("eggCount").GetComponent<Text>();
 		timer = GameObject.FindWithTag("timer").GetComponent<Text>();
 		timer.text = timeLeft.ToString("f0");
 		myAnimation = GetComponent<Animator> ();
@@ -101,6 +103,9 @@ public class playerController : MonoBehaviour {
 			if (isAttacking) {
 				Destroy (col.gameObject);
 				//NEL POINTS HERE
+				int count = Int32.Parse(attackCounter.text);
+				count+=5;
+				attackCounter.text = count.ToString();
 			} else {
 				GameOver ();
 			}

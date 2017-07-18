@@ -7,7 +7,7 @@ public class cameraBorderLevel2 : MonoBehaviour {
 	//far left
 	private float minPos = 4.5f; 
 	//far right
-	private float maxPos = 7.5f;
+	private float maxPos = 8.5f;
 	AudioSource audio;
 	musicSettings musicSett;
 	private Vector2 velocity;
