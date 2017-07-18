@@ -3,56 +3,59 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class newEnemy : MonoBehaviour {
-	public static bool hatched;
+	private bool hatched;
 	public float speed;
 	public float distance;
 	private float xStartPosition;
-	bool flip;
-	public Sprite dragon; 
-	public Sprite dragonFire;
-	private SpriteRenderer spriteRenderer; 
+	private bool rightflip;
+	private Animator myAnimator;
+	private GameObject myParent;
 
 	void Start () {
-		xStartPosition = transform.position.x;
-		flip = true;
-		spriteRenderer = GetComponent<SpriteRenderer>(); 
-		transform.localScale = new Vector3 (0.05f, 0.05f, 1);
+		rightflip = true;
+		//transform.localScale = new Vector3 (0.05f, 0.05f, 1);
+		myAnimator = GetComponent<Animator> ();
+		this.hatched = false;
+		if (transform.parent.gameObject.name.Contains("flipDragon")){
+			myParent = transform.parent.gameObject;
+			
+		}
 
 	}
 	void OnTriggerEnter2D(Collider2D coll){
 		if (coll.gameObject.tag.Contains("Player")){
 			this.GetComponent<BoxCollider2D> ().enabled = false;
 			//play animation of poof
-			//hatched = true;
-			Invoke ("hatchTheEgg", 2);
+			Invoke("waitHatch",1.5f);
+			myAnimator.SetBool ("hatch", true);
+			xStartPosition = myParent.transform.position.x;
+
 		}
 	}
-	void hatchTheEgg(){
-		Debug.Log ("hatch the egg method");
-		spriteRenderer.sprite = dragon;
-		transform.localScale = new Vector3 (0.24f, 0.24f, 1);
 
-		Destroy (GetComponent<PolygonCollider2D> ());
-		this.gameObject.AddComponent<PolygonCollider2D>();
-		hatched = true;
-
+	void waitHatch(){
+		this.hatched = true;
+		myAnimator.SetBool ("moveDragon", true);
 	}
+
 
 	void Update () {
 		//to add: everyso often breathe fire
-		if (hatched) {
-			if ((speed < 0 && transform.position.x < xStartPosition) || (speed > 0 && transform.position.x > xStartPosition + distance)) {
+		if (this.hatched && myParent!=null) {
+			
+			if ((speed < 0 && myParent.transform.position.x < xStartPosition) || (speed > 0 && myParent.transform.position.x > xStartPosition + distance)) {
+				
 				speed *= -1;
-				Vector3 theScale = transform.localScale;
+				Vector2 theScale = myParent.transform.localScale;
+				//Debug.Log (transform.localScale);
+				
 				theScale.x *= -1;
-				transform.localScale = theScale;
-
+				myParent.transform.localScale = theScale;
 				Destroy (GetComponent<PolygonCollider2D> ());
 				this.gameObject.AddComponent<PolygonCollider2D>();
 			}
-			transform.position = new Vector2 (transform.position.x + speed * Time.deltaTime, transform.position.y);
-		} else {
-			//animate wobbly egg????
+
+			myParent.transform.position = new Vector2 (myParent.transform.position.x + speed * Time.deltaTime, myParent.transform.position.y);
 		}
 	}
 
