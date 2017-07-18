@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class newEnemy : MonoBehaviour {
-	public static bool hatched;
+	public static bool hatched=true;
 	public float speed;
 	public float distance;
 	private float xStartPosition;
