@@ -14,11 +14,13 @@ public class bgmVolume : MonoBehaviour {
 		return instance;
 	}
 
-	void Awake(){
+	void Start(){
+		audio = GetComponent<AudioSource> ();
 
 		GameObject settings = GameObject.FindGameObjectWithTag("musicVol"); 
 		musicSett = (musicSettings)settings.GetComponent (typeof(musicSettings));
-
+	}
+	void Awake(){
 		if (instance != null && instance != this) {
 			Destroy (this.gameObject);
 			return;
@@ -35,15 +37,13 @@ public class bgmVolume : MonoBehaviour {
 			levelSelMusic = GameObject.FindGameObjectWithTag ("selectMusic");
 			if (levelSelMusic != null) {
 				levelSelMusic.SetActive (false);
+
 			}
 		}
 		else
 			Destroy (this.gameObject);
 	}
-	// Use this for initialization
-	void Start () {
-		audio = GetComponent<AudioSource> ();
-	}
+
 	
 	public void SetVolume(float value){
 		audio.volume = value;
