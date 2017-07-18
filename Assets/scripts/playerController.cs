@@ -23,9 +23,8 @@ public class playerController : MonoBehaviour {
 //	public Sprite attack;
 	private Animator myAnimation;
 
-		
-
 	private Rigidbody2D rb2d;
+	private bool princessAttack = false;
 
 	// Use this for initialization
 	void Start () {
@@ -41,18 +40,16 @@ public class playerController : MonoBehaviour {
 	void Update () {
 
 		myAnimation.SetFloat ("speed", Mathf.Abs (rb2d.velocity.x));
-
+		myAnimation.SetBool ("attack", princessAttack);
 		//flip sprite
 		//moving left
 		if (Input.GetAxis ("Horizontal") < -0.1f) {
-			facingRight = false;
-			transform.localScale = new Vector3 (-0.22f, 0.22f, 1);
+			transform.localScale = new Vector3 (0.22f, 0.22f, 1);
 		}
 
 		//moving right
 		else if (Input.GetAxis ("Horizontal") > 0.1f) {
-			facingRight = true;
-			transform.localScale = new Vector3 (0.22f, 0.22f, 1);
+			transform.localScale = new Vector3 (-0.22f, 0.22f, 1);
 		}
 
 		//jumping
@@ -61,6 +58,12 @@ public class playerController : MonoBehaviour {
 			if (grounded) {
 				rb2d.AddForce (Vector2.up * 170f);
 			}
+		}
+
+		//attacking
+		if (Input.GetButtonDown ("Attack")) {
+			princessAttack = true;
+			StartCoroutine (Wait ());
 		}
 
 		//pause
@@ -83,10 +86,14 @@ public class playerController : MonoBehaviour {
 		if (col.gameObject.name.Contains ("gem")) {
 			Destroy (col.gameObject);
 			int count = Int32.Parse(counter.text);
-			count++;
+			count+=3;
 			counter.text = count.ToString();
 
 		}
+	}
+	IEnumerator Wait(){
+		yield return new WaitForSeconds (0.8f);
+		princessAttack = false;
 	}
 
 	void FixedUpdate(){

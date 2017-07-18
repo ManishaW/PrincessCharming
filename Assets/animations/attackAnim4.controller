@@ -5,17 +5,13 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: idleTEST
+  m_Name: attackAnim4
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
-<<<<<<< HEAD
-    m_StateMachine: {fileID: 1107645396964710044}
-=======
-    m_StateMachine: {fileID: 1107597915855129828}
->>>>>>> 62afa237610628a80d512d6d29abe119c8403377
+    m_StateMachine: {fileID: 1107560064896453832}
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -25,21 +21,13 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
-<<<<<<< HEAD
---- !u!1102 &1102016288057502162
-=======
---- !u!1102 &1102171878480795752
->>>>>>> 62afa237610628a80d512d6d29abe119c8403377
+--- !u!1102 &1102332246197575140
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_Name: dragonAnim
-=======
-  m_Name: idlePlayer
->>>>>>> 62afa237610628a80d512d6d29abe119c8403377
+  m_Name: princessAttack
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -51,20 +39,12 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-<<<<<<< HEAD
-  m_Motion: {fileID: 0}
-=======
-  m_Motion: {fileID: 7400000, guid: 3027fa9b8bc44394dba54d3b69471820, type: 2}
->>>>>>> 62afa237610628a80d512d6d29abe119c8403377
+  m_Motion: {fileID: 7400000, guid: 998a8c56f9710cc41af0700aba980c80, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-<<<<<<< HEAD
---- !u!1107 &1107645396964710044
-=======
---- !u!1107 &1107597915855129828
->>>>>>> 62afa237610628a80d512d6d29abe119c8403377
+--- !u!1107 &1107560064896453832
 AnimatorStateMachine:
   serializedVersion: 5
   m_ObjectHideFlags: 1
@@ -73,12 +53,8 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-<<<<<<< HEAD
-    m_State: {fileID: 1102016288057502162}
-=======
-    m_State: {fileID: 1102171878480795752}
->>>>>>> 62afa237610628a80d512d6d29abe119c8403377
-    m_Position: {x: 200, y: 0, z: 0}
+    m_State: {fileID: 1102332246197575140}
+    m_Position: {x: 204, y: 0, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -88,8 +64,4 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-<<<<<<< HEAD
-  m_DefaultState: {fileID: 1102016288057502162}
-=======
-  m_DefaultState: {fileID: 1102171878480795752}
->>>>>>> 62afa237610628a80d512d6d29abe119c8403377
+  m_DefaultState: {fileID: 1102332246197575140}
