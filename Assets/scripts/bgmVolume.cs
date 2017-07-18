@@ -47,7 +47,7 @@ public class bgmVolume : MonoBehaviour {
 	
 	public void SetVolume(float value){
 		audio.volume = value;
-		musicSett.SetMusicVol = value;
+		musicSett.SetMusicVolume(value);
 	}
 		
 }

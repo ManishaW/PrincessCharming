@@ -9,7 +9,7 @@ public class cameraBorderLevel3 : MonoBehaviour {
 	//far right
 	public float maxPos = 9.20f;
 	public AudioSource BGMLevel;
-
+	musicSettings musicSett;
 	private Vector2 velocity;
 	public float smoothTimeX;
 	public float smoothTimeY;
