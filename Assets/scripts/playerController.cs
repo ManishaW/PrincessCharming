@@ -20,7 +20,7 @@ public class playerController : MonoBehaviour {
 	private Text attackCounter;
 	private Text timer;
 	public static bool gamePaused= false;
-	public bool isAttacking;
+	bool isAttacking;
 //	public Sprite attack;
 	private Animator myAnimation;
 
@@ -107,7 +107,7 @@ public class playerController : MonoBehaviour {
 				count+=5;
 				attackCounter.text = count.ToString();
 			} else {
-				GameOver ();
+				GameOver2 ();
 			}
 		}
 	}
@@ -145,6 +145,13 @@ public class playerController : MonoBehaviour {
 		failedCanvas.SetActive(true);
 		GameObject.FindWithTag ("ouch").GetComponent<Text> ().text = "Time's Up!";
 		GameObject.FindWithTag ("egg").GetComponent<Image> ().enabled = false;
+		Time.timeScale = 0.0f;
+	}
+
+	void GameOver2(){
+		failedCanvas.SetActive(true);
+		GameObject.FindWithTag("ouch").GetComponent<Text>().text="Ouch that hurt!";
+		GameObject.FindWithTag ("time").GetComponent <Image> ().enabled = false;
 		Time.timeScale = 0.0f;
 	}
 }
