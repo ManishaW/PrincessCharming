@@ -19,6 +19,7 @@ TagManager:
   - eggCount
   - selectMusic
   - musicVol
+  - gameMusic
   layers:
   - Default
   - TransparentFX

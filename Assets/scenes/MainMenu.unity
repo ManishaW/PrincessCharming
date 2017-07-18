@@ -124,7 +124,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 147, y: -71.5}
+  m_AnchoredPosition: {x: -129, y: -31}
   m_SizeDelta: {x: 219, y: 143}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &186847712
@@ -291,7 +291,7 @@ Prefab:
     - target: {fileID: 114240396593193072, guid: 086cbda293ab73445ac0254a890c9a8a,
         type: 2}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114240396593193072, guid: 086cbda293ab73445ac0254a890c9a8a,
         type: 2}
@@ -302,11 +302,11 @@ Prefab:
         type: 2}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1390986766}
+      objectReference: {fileID: 1394701356}
     - target: {fileID: 114240396593193072, guid: 086cbda293ab73445ac0254a890c9a8a,
         type: 2}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetVolume
+      value: updated
       objectReference: {fileID: 0}
     - target: {fileID: 114240396593193072, guid: 086cbda293ab73445ac0254a890c9a8a,
         type: 2}
@@ -317,6 +317,11 @@ Prefab:
         type: 2}
       propertyPath: m_Value
       value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114240396593193072, guid: 086cbda293ab73445ac0254a890c9a8a,
+        type: 2}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 086cbda293ab73445ac0254a890c9a8a, type: 2}
@@ -376,17 +381,17 @@ Prefab:
     - target: {fileID: 224234135925606632, guid: 19b6c7aee2fb0bf44bde05c7bbc308ce,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -23.7
+      value: 192
       objectReference: {fileID: 0}
     - target: {fileID: 224234135925606632, guid: 19b6c7aee2fb0bf44bde05c7bbc308ce,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 11
+      value: -9
       objectReference: {fileID: 0}
     - target: {fileID: 224234135925606632, guid: 19b6c7aee2fb0bf44bde05c7bbc308ce,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -244
       objectReference: {fileID: 0}
     - target: {fileID: 224234135925606632, guid: 19b6c7aee2fb0bf44bde05c7bbc308ce,
         type: 2}
@@ -715,7 +720,7 @@ GameObject:
   - component: {fileID: 1390986766}
   m_Layer: 0
   m_Name: gameMusic
-  m_TagString: Untagged
+  m_TagString: gameMusic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -970,6 +975,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settingsPanel: {fileID: 1099837644}
   helpPanel: {fileID: 1468662131}
+  currVol: 0
+  volSlider: {fileID: 1941302986}
 --- !u!1 &1468662131 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1331354055967484, guid: d7b97964557fa824fa1ec9d9abb55158,
@@ -1129,3 +1136,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1941302986 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114240396593193072, guid: 086cbda293ab73445ac0254a890c9a8a,
+    type: 2}
+  m_PrefabInternal: {fileID: 342580833}
+  m_Script: {fileID: -113659843, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
