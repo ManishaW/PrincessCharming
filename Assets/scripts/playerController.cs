@@ -19,7 +19,7 @@ public class playerController : MonoBehaviour {
 	private Text counter;
 	private Text timer;
 	public static bool gamePaused= false;
-
+	public bool isAttacking;
 //	public Sprite attack;
 	private Animator myAnimation;
 
@@ -34,6 +34,7 @@ public class playerController : MonoBehaviour {
 		timer = GameObject.FindWithTag("timer").GetComponent<Text>();
 		timer.text = timeLeft.ToString("f0");
 		myAnimation = GetComponent<Animator> ();
+		isAttacking = false;
 	}
 
 	// Update is called once per frame
@@ -62,8 +63,10 @@ public class playerController : MonoBehaviour {
 
 		//attacking
 		if (Input.GetButtonDown ("Attack")) {
-
-			myAnimation.SetTrigger("canAttack");
+			isAttacking = true;
+			myAnimation.SetTrigger ("canAttack");
+		//} else {
+			Invoke("Wait",1.5f);
 		}
 
 		//pause
@@ -90,6 +93,23 @@ public class playerController : MonoBehaviour {
 			counter.text = count.ToString();
 
 		}
+	}
+
+	void OnCollisionEnter2D(Collision2D col){
+
+		if (col.gameObject.tag == "Enemy") {
+			if (isAttacking) {
+				Destroy (col.gameObject);
+				//NEL POINTS HERE
+			} else {
+				GameOver ();
+			}
+		}
+	}
+
+	void Wait(){
+		isAttacking = false;
+
 	}
 
 	void FixedUpdate(){
