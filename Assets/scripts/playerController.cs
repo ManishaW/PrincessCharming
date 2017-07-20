@@ -25,7 +25,8 @@ public class playerController : MonoBehaviour {
 	private Animator myAnimation;
 
 	private Rigidbody2D rb2d;
-	private bool princessAttack = false;
+	//private bool princessAttack = false;
+	int attackHash = Animator.StringToHash("canAttack");
 
 	// Use this for initialization
 	void Start () {
@@ -66,9 +67,9 @@ public class playerController : MonoBehaviour {
 		//attacking
 		if (Input.GetButtonDown ("Attack")) {
 			isAttacking = true;
-			myAnimation.SetTrigger ("canAttack");
+			myAnimation.SetTrigger (attackHash);
 		//} else {
-			Invoke("Wait",1.5f);
+	//		Invoke("Wait",1.5f);
 		}
 
 		//pause

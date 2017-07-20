@@ -4685,6 +4685,26 @@ Prefab:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 61120593864821850, guid: c111e6d18e8c17543bddd51b2ecdfbf5,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: -2.8835127
+      objectReference: {fileID: 0}
+    - target: {fileID: 61120593864821850, guid: c111e6d18e8c17543bddd51b2ecdfbf5,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: 3.7373233
+      objectReference: {fileID: 0}
+    - target: {fileID: 61120593864821850, guid: c111e6d18e8c17543bddd51b2ecdfbf5,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 12.145572
+      objectReference: {fileID: 0}
+    - target: {fileID: 61120593864821850, guid: c111e6d18e8c17543bddd51b2ecdfbf5,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 8.834744
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c111e6d18e8c17543bddd51b2ecdfbf5, type: 2}
   m_IsPrefabParent: 0
