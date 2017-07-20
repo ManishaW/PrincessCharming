@@ -5,7 +5,7 @@ using UnityEngine;
 public class cameraBorder : MonoBehaviour {
 
 	//far left
-	private float minPos = -0.86f; 
+	private float minPos = -1.3f; 
 	//far right
 	private float maxPos = 11.5f;
 	AudioSource audio;
