@@ -36,7 +36,7 @@ public class LevelSelectScript : MonoBehaviour {
 			level3.interactable = true;
 		}
 		if (level3Complete){
-			Destroy(lock3);
+			Destroy(lock4);
 			level4.interactable = true;
 		}
 	}
