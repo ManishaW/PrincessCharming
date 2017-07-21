@@ -68,8 +68,8 @@ public class playerController : MonoBehaviour {
 		if (Input.GetButtonDown ("Attack")) {
 			isAttacking = true;
 			myAnimation.SetTrigger (attackHash);
-		//} else {
-	//		Invoke("Wait",1.5f);
+		    //isAttacking = false;
+
 		}
 
 		//pause
@@ -123,7 +123,7 @@ public class playerController : MonoBehaviour {
 	}
 
 	void Wait(){
-		isAttacking = false;
+	//	isAttacking = false;
 
 	}
 
