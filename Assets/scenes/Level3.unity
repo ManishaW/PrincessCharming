@@ -5699,8 +5699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc67d13b1ddade54c8a38695ed90e7eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyFoundCanvas: {fileID: 1421235253861392, guid: 5bfbd91f123d69445ad50ead2a40fbed,
-    type: 2}
+  keyFoundCanvas: {fileID: 540544591}
 --- !u!212 &442130970
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7611,6 +7610,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 26ba177948f4f594ca18eb50f36e382a, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &540544591 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1663859529931914, guid: 26ba177948f4f594ca18eb50f36e382a,
+    type: 2}
+  m_PrefabInternal: {fileID: 540544590}
 --- !u!1 &547417785
 GameObject:
   m_ObjectHideFlags: 0
