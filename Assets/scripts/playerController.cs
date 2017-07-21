@@ -77,6 +77,15 @@ public class playerController : MonoBehaviour {
 			gamePaused = true;
 			Time.timeScale = 0;
 			pauseCanvas.SetActive (true);
+			Text gems = GameObject.FindWithTag("gemScore").GetComponent<Text>();
+			string gemCounting = GameObject.FindWithTag("gemCount").GetComponent<Text>().text;
+			gems.text = gemCounting;
+			Text eggs = GameObject.FindWithTag("eggScore").GetComponent<Text>();
+			string eggCounting = GameObject.FindWithTag("eggCount").GetComponent<Text>().text;
+			eggs.text = eggCounting;
+			Text timer = GameObject.FindWithTag("timeScore").GetComponent<Text>();
+			string timeCounting = GameObject.FindWithTag("timer").GetComponent<Text>().text;
+			timer.text = timeCounting;
 		}
 
 		if (!gamePaused) {
