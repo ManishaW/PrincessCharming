@@ -42,19 +42,23 @@ public class LevelSelectScript : MonoBehaviour {
 	}
 	public void level1OnClick(){
 		SceneManager.LoadScene (3);
+		Time.timeScale = 1;
 	}
 	public void tutorial(){
 		SceneManager.LoadScene (2);
+		Time.timeScale = 1;
 	}
 	public void level2OnClick(){
 		SceneManager.LoadScene (4);
+		Time.timeScale = 1;
 	}
 	public void level3OnClick(){
 		SceneManager.LoadScene (5);
+		Time.timeScale = 1;
 	}
 	public void backToMainMenuOnClick(){
 		SceneManager.LoadScene(0);
-
+		Time.timeScale = 1;
 
 }
 
