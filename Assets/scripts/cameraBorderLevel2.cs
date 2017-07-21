@@ -5,9 +5,9 @@ using UnityEngine;
 public class cameraBorderLevel2 : MonoBehaviour {
 
 	//far left
-	private float minPos = 4.5f; 
+	private float minPos = 4.3f; 
 	//far right
-	private float maxPos = 8.5f;
+	private float maxPos = 8.7f;
 	AudioSource audio;
 	musicSettings musicSett;
 	private Vector2 velocity;
